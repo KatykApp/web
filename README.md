@@ -11,3 +11,13 @@ cp .env.example .env
 docker-compose up -d
 ````
 
+Ingresar en el contenedor
+
+````
+docker exec -ti container_id bash
+composer require laravel/jetstream
+composer install
+php artisan jetstream:install livewire
+npm install && npm run build
+php artisan migrate
+````
