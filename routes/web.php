@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MemberController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +24,10 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified'
 ])->group(function () {
+    Route::get('/home',  [DashboardController::class, 'index'])->name('home');
+    Route::resources([
+        'members' => MemberController::class
+    ]);
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
