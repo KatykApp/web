@@ -21,3 +21,5 @@ php artisan migrate
 ````
 
 Ejecutar solo la primera vez 
+
+Finalizacion de la Implementacion de la Plantilla 
