@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\jobController;
+use App\Http\Controllers\VistaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('welcome');
 });
 
@@ -25,4 +27,20 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-});
+}); */
+
+Route::get('/', jobController::class);  // Controla una unica vista
+
+// Control de varias vistas 
+/* Route::get('vistas/create', [VistasController::class, 'create']); */
+/* Route::controller(VistaController::class)->group(function(){
+    Route::get('/home', 'index');
+    Route::get('/home/job-landing', 'jobLanding');
+    Route::get('/home/auth-signin-basic', 'authSigninBasic');
+}); */
+
+
+
+Route::get('home', [VistaController::class, 'index']);
+Route::get('home/job-landing', [VistaController::class, 'jobLanding']);
+Route::get('home/auth-signin-basic', [VistaController::class, 'authSigninBasic']);
