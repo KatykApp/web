@@ -55,8 +55,8 @@
 @endsection
 @section('script')
 <!-- job-candidate-grid js -->
-<script src="{{URL::asset('build/js/pages/job-candidate-lists.init.js')}}"></script>
+<script src="{{URL::asset('assets/js/pages/job-candidate-lists.init.js')}}"></script>
 
 <!-- App js -->
-<script src="{{URL::asset('build/js/app.js')}}"></script>
+<script src="{{URL::asset('assets/js/app.js')}}"></script>
 @endsection

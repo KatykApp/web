@@ -1,13 +1,18 @@
 @extends('layouts.master')
-@section('title') @lang('translation.leaflet') @endsection
+@section('title')
+    @lang('translation.leaflet')
+@endsection
 @section('css')
-    <link href="{{ URL::asset('build/libs/leaflet/leaflet.css') }}" rel="stylesheet" type="text/css" />
-
+    <link href="{{ URL::asset('assets/libs/leaflet/leaflet.css') }}" rel="stylesheet" type="text/css" />
 @endsection
 @section('content')
     @component('components.breadcrumb')
-        @slot('li_1') Maps @endslot
-        @slot('title') Leaflet Maps @endslot
+        @slot('li_1')
+            Maps
+        @endslot
+        @slot('title')
+            Leaflet Maps
+        @endslot
     @endcomponent
     <div class="row">
         <div class="col-lg-6">
@@ -97,10 +102,10 @@
     <!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/prismjs/prism.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/prismjs/prism.js') }}"></script>
 
-    <script src="{{ URL::asset('build/libs/leaflet/leaflet.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/leaflet-us-states.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/leaflet-map.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/leaflet/leaflet.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/leaflet-us-states.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/leaflet-map.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

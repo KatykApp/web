@@ -46,13 +46,13 @@
 @endsection
 @section('script')
     <!-- apexcharts -->
-    <script src="{{ URL::asset('build/libs/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
 
     <script src="https://apexcharts.com/samples/assets/ohlc.js"></script>
     <!-- for Category x-axis chart -->
     <script src="https://img.themesbrand.com/velzon/apexchart-js/dayjs.min.js"></script>
 
     <!-- range-area charts init -->
-    <script src="{{ URL::asset('build/js/pages/apexcharts-range-area.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/apexcharts-range-area.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

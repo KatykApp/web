@@ -62,7 +62,7 @@
                             <a href="javascript: void(0);" class="d-flex align-items-center active">
                                 <div class="flex-shrink-0 me-2 avatar-xxs chatlist-user-image">
                                     <img class="img-fluid rounded-circle"
-                                        src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt="">
+                                        src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}" alt="">
                                 </div>
 
                                 <div class="flex-grow-1 chat-user-box overflow-hidden">
@@ -74,7 +74,7 @@
                             <a href="javascript: void(0);" class="d-flex align-items-center">
                                 <div class="flex-shrink-0 me-2 avatar-xxs chatlist-user-image">
                                     <img class="img-fluid rounded-circle"
-                                        src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt="">
+                                        src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}" alt="">
                                 </div>
 
                                 <div class="flex-grow-1 chat-user-box overflow-hidden">
@@ -86,7 +86,7 @@
                             <a href="javascript: void(0);" class="d-flex align-items-center">
                                 <div class="flex-shrink-0 me-2 avatar-xxs chatlist-user-image">
                                     <img class="img-fluid rounded-circle"
-                                        src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt="">
+                                        src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt="">
                                 </div>
 
                                 <div class="flex-grow-1 chat-user-box overflow-hidden">
@@ -98,7 +98,7 @@
                             <a href="javascript: void(0);" class="d-flex align-items-center">
                                 <div class="flex-shrink-0 me-2 avatar-xxs chatlist-user-image">
                                     <img class="img-fluid rounded-circle"
-                                        src="{{ URL::asset('build/images/users/avatar-5.jpg') }}" alt="">
+                                        src="{{ URL::asset('assets/images/users/avatar-5.jpg') }}" alt="">
                                 </div>
 
                                 <div class="flex-grow-1 chat-user-box overflow-hidden">
@@ -331,7 +331,7 @@
                                     aria-controls="email-collapseOne">
                                     <div class="d-flex align-items-center text-muted">
                                         <div class="flex-shrink-0 avatar-xs me-3">
-                                            <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt=""
+                                            <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt=""
                                                 class="img-fluid rounded-circle">
                                         </div>
                                         <div class="flex-grow-1 overflow-hidden">
@@ -359,14 +359,14 @@
 
                                         <div class="d-flex gap-3">
                                             <div class="border rounded avatar-xl h-auto">
-                                                <img src="{{ URL::asset('build/images/small/img-2.jpg') }}" alt=""
+                                                <img src="{{ URL::asset('assets/images/small/img-2.jpg') }}" alt=""
                                                     class="img-fluid rouned-top">
                                                 <div class="py-2 text-center">
                                                     <a href="" class="d-block fw-semibold">Download</a>
                                                 </div>
                                             </div>
                                             <div class="border rounded avatar-xl h-auto">
-                                                <img src="{{ URL::asset('build/images/small/img-6.jpg') }}" alt=""
+                                                <img src="{{ URL::asset('assets/images/small/img-6.jpg') }}" alt=""
                                                     class="img-fluid rouned-top">
                                                 <div class="py-2 text-center">
                                                     <a href="" class="d-block fw-semibold">Download</a>
@@ -386,7 +386,7 @@
                                     aria-controls="email-collapseTwo">
                                     <div class="d-flex align-items-center text-muted">
                                         <div class="flex-shrink-0 avatar-xs me-3">
-                                            <img src="{{ URL::asset('build/images/users/avatar-1.jpg') }}" alt=""
+                                            <img src="{{ URL::asset('assets/images/users/avatar-1.jpg') }}" alt=""
                                                 class="img-fluid rounded-circle">
                                         </div>
                                         <div class="flex-grow-1 overflow-hidden">
@@ -420,7 +420,7 @@
                                     aria-controls="email-collapseThree">
                                     <div class="d-flex align-items-center text-muted">
                                         <div class="flex-shrink-0 avatar-xs me-3">
-                                            <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt=""
+                                            <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt=""
                                                 class="img-fluid rounded-circle">
                                         </div>
                                         <div class="flex-grow-1 overflow-hidden">
@@ -523,7 +523,7 @@
                             <li class="chat-list left">
                                 <div class="conversation-list">
                                     <div class="chat-avatar">
-                                        <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt="">
+                                        <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}" alt="">
                                     </div>
                                     <div class="user-chat-content">
                                         <div class="ctext-wrap">
@@ -587,7 +587,7 @@
                             <li class="chat-list left">
                                 <div class="conversation-list">
                                     <div class="chat-avatar">
-                                        <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt="">
+                                        <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}" alt="">
                                     </div>
                                     <div class="user-chat-content">
                                         <div class="ctext-wrap">
@@ -772,7 +772,7 @@
     </div><!-- /.modal -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/mailbox.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/mailbox.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

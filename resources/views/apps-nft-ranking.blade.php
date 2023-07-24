@@ -65,7 +65,7 @@
                                 </td>
                                 <td class="collection">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{URL::asset('build/images/nft/img-01.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Abstract Face Painting</a>
+                                        <img src="{{URL::asset('assets/images/nft/img-01.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Abstract Face Painting</a>
                                     </div>
                                 </td>
                                 <td class="volume_price">7,50,000</td>
@@ -105,7 +105,7 @@
                                 </td>
                                 <td class="collection">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{URL::asset('build/images/nft/img-02.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Creative Filtered Portrait</a>
+                                        <img src="{{URL::asset('assets/images/nft/img-02.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Creative Filtered Portrait</a>
                                     </div>
                                 </td>
                                 <td class="volume_price">1,36,000</td>
@@ -145,7 +145,7 @@
                                 </td>
                                 <td class="collection">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{URL::asset('build/images/nft/img-04.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Robotic Body Art</a>
+                                        <img src="{{URL::asset('assets/images/nft/img-04.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Robotic Body Art</a>
                                     </div>
                                 </td>
                                 <td class="volume_price">25,800</td>
@@ -165,7 +165,7 @@
                                 </td>
                                 <td class="collection">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{URL::asset('build/images/nft/img-06.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Smillevers Crypto</a>
+                                        <img src="{{URL::asset('assets/images/nft/img-06.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Smillevers Crypto</a>
                                     </div>
                                 </td>
                                 <td class="volume_price">37,100</td>
@@ -225,7 +225,7 @@
                                 </td>
                                 <td class="collection">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{URL::asset('build/images/nft/img-05.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">The Chirstoper</a>
+                                        <img src="{{URL::asset('assets/images/nft/img-05.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">The Chirstoper</a>
                                     </div>
                                 </td>
                                 <td class="volume_price">74,950</td>
@@ -245,7 +245,7 @@
                                 </td>
                                 <td class="collection">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{URL::asset('build/images/nft/img-03.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Walking On Air</a>
+                                        <img src="{{URL::asset('assets/images/nft/img-03.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Walking On Air</a>
                                     </div>
                                 </td>
                                 <td class="volume_price">3,35,750</td>
@@ -265,7 +265,7 @@
                                 </td>
                                 <td class="collection">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{URL::asset('build/images/nft/img-04.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Highstreet IHO Part</a>
+                                        <img src="{{URL::asset('assets/images/nft/img-04.jpg')}}" alt="" class="avatar-xs rounded-circle object-fit-cover me-2"> <a href="apps-nft-item-details" class="text-body">Highstreet IHO Part</a>
                                     </div>
                                 </td>
                                 <td class="volume_price">35,750</td>
@@ -312,11 +312,11 @@
 @section('script')
 
 <!-- list.js min js -->
-<script src="{{ URL::asset('build/libs/list.js/list.min.js') }}"></script>
-<script src="{{ URL::asset('build/libs/list.pagination.js/list.pagination.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/list.js/list.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/list.pagination.js/list.pagination.min.js') }}"></script>
 
-<script src="{{ URL::asset('build/js/pages/apps-nft-ranking.init.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/apps-nft-ranking.init.js') }}"></script>
 
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 
 @endsection

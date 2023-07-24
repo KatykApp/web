@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title') Application @endsection
 @section('css')
-<link href="{{ URL::asset('build/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet">
+<link href="{{ URL::asset('assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet">
 @endsection
 @section('content')
 @component('components.breadcrumb')
@@ -136,7 +136,7 @@
                                     <td class="company">
                                         <div class="d-flex align-items-center">
                                             <div class="flex-shrink-0">
-                                                <img src="{{URL::asset('build/images/brands/slack.png')}}" alt="" class="avatar-xxs rounded-circle image_src object-fit-cover">
+                                                <img src="{{URL::asset('assets/images/brands/slack.png')}}" alt="" class="avatar-xxs rounded-circle image_src object-fit-cover">
                                             </div>
                                             <div class="flex-grow-1 ms-2">Syntyce Solutions</div>
                                         </div>
@@ -219,7 +219,7 @@
                                             </div>
                                             <div class="avatar-lg p-1">
                                                 <div class="avatar-title bg-light rounded-circle">
-                                                    <img src="{{URL::asset('build/images/users/multi-user.jpg')}}" id="companylogo-img" class="avatar-md h-auto rounded-circle object-fit-cover" />
+                                                    <img src="{{URL::asset('assets/images/users/multi-user.jpg')}}" id="companylogo-img" class="avatar-md h-auto rounded-circle object-fit-cover" />
                                                 </div>
                                             </div>
                                         </div>
@@ -312,17 +312,17 @@
 @endsection
 @section('script')
 <!-- list.js min js -->
-<script src="{{URL::asset('build/libs/list.js/list.min.js')}}"></script>
+<script src="{{URL::asset('assets/libs/list.js/list.min.js')}}"></script>
 
 <!--list pagination js-->
-<script src="{{URL::asset('build/libs/list.pagination.js/list.pagination.min.js')}}"></script>
+<script src="{{URL::asset('assets/libs/list.pagination.js/list.pagination.min.js')}}"></script>
 
 <!-- ecommerce-order init js -->
-<script src="{{URL::asset('build/js/pages/job-application.init.js')}}"></script>
+<script src="{{URL::asset('assets/js/pages/job-application.init.js')}}"></script>
 
 <!-- Sweet Alerts js -->
-<script src="{{URL::asset('build/libs/sweetalert2/sweetalert2.min.js')}}"></script>
+<script src="{{URL::asset('assets/libs/sweetalert2/sweetalert2.min.js')}}"></script>
 
 <!-- App js -->
-<script src="{{URL::asset('build/js/app.js')}}"></script>
+<script src="{{URL::asset('assets/js/app.js')}}"></script>
 @endsection

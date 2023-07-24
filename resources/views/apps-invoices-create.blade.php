@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title') @lang('translation.create-invoice') @endsection
 @section('css')
-<link href="{{ URL::asset('build/libs/dropzone/dropzone.css') }}" rel="stylesheet">
+<link href="{{ URL::asset('assets/libs/dropzone/dropzone.css') }}" rel="stylesheet">
 <!-- Sweet Alert css-->
-<link href="{{ URL::asset('build/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet">
+<link href="{{ URL::asset('assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet">
 
 @endsection
 @section('content')
@@ -22,8 +22,8 @@
                                 <input id="profile-img-file-input" type="file" class="profile-img-file-input" />
                                 <label for="profile-img-file-input" class="d-block" tabindex="0">
                                     <span class="overflow-hidden border border-dashed d-flex align-items-center justify-content-center rounded" style="height: 60px; width: 256px;">
-                                        <img src="{{ URL::asset('build/images/logo-dark.png') }}" class="card-logo card-logo-dark user-profile-image img-fluid" alt="logo dark">
-                                        <img src="{{ URL::asset('build/images/logo-light.png') }}" class="card-logo card-logo-light user-profile-image img-fluid" alt="logo light">
+                                        <img src="{{ URL::asset('assets/images/logo-dark.png') }}" class="card-logo card-logo-dark user-profile-image img-fluid" alt="logo dark">
+                                        <img src="{{ URL::asset('assets/images/logo-light.png') }}" class="card-logo card-logo-light user-profile-image img-fluid" alt="logo light">
                                     </span>
                                 </label>
                             </div>
@@ -346,9 +346,9 @@
 <!--end row-->
 @endsection
 @section('script')
-<script src="{{ URL::asset('build/libs/dropzone/dropzone-min.js') }}"></script>
-<script src="{{ URL::asset('build/libs/cleave.js/cleave.min.js') }}"></script>
-<script src="{{ URL::asset('build/js/pages/invoicecreate.init.js') }}"></script>
-<script src="{{ URL::asset('build/libs/sweetalert2/sweetalert2.min.js') }}"></script>
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/dropzone/dropzone-min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/cleave.js/cleave.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/invoicecreate.init.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/sweetalert2/sweetalert2.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

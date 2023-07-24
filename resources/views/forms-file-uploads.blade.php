@@ -3,10 +3,10 @@
     @lang('translation.file-uploads')
 @endsection
 @section('css')
-    <link href="{{ URL::asset('build/libs/dropzone/dropzone.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ URL::asset('build/libs/filepond/filepond.min.css') }}" type="text/css" />
+    <link href="{{ URL::asset('assets/libs/dropzone/dropzone.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ URL::asset('assets/libs/filepond/filepond.min.css') }}" type="text/css" />
     <link rel="stylesheet"
-        href="{{ URL::asset('build/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css') }}">
+        href="{{ URL::asset('assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css') }}">
 @endsection
 @section('content')
     @component('components.breadcrumb')
@@ -49,7 +49,8 @@
                                 <div class="d-flex p-2">
                                     <div class="flex-shrink-0 me-3">
                                         <div class="avatar-sm bg-light rounded">
-                                            <img data-dz-thumbnail class="img-fluid rounded d-block" src="{{URL::asset('build/images/new-document.png')}}"
+                                            <img data-dz-thumbnail class="img-fluid rounded d-block"
+                                                src="{{ URL::asset('assets/images/new-document.png') }}"
                                                 alt="Dropzone-Image" />
                                         </div>
                                     </div>
@@ -128,18 +129,18 @@
     <!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/dropzone/dropzone-min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/filepond/filepond.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.js') }}">
+    <script src="{{ URL::asset('assets/libs/dropzone/dropzone-min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/filepond/filepond.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.js') }}">
     </script>
     <script
-        src="{{ URL::asset('build/libs/filepond-plugin-file-validate-size/filepond-plugin-file-validate-size.min.js') }}">
+        src="{{ URL::asset('assets/libs/filepond-plugin-file-validate-size/filepond-plugin-file-validate-size.min.js') }}">
     </script>
     <script
-        src="{{ URL::asset('build/libs/filepond-plugin-image-exif-orientation/filepond-plugin-image-exif-orientation.min.js') }}">
+        src="{{ URL::asset('assets/libs/filepond-plugin-image-exif-orientation/filepond-plugin-image-exif-orientation.min.js') }}">
     </script>
-    <script src="{{ URL::asset('build/libs/filepond-plugin-file-encode/filepond-plugin-file-encode.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/filepond-plugin-file-encode/filepond-plugin-file-encode.min.js') }}"></script>
 
-    <script src="{{ URL::asset('build/js/pages/form-file-upload.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/form-file-upload.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

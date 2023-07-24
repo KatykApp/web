@@ -3,8 +3,8 @@
     @lang('translation.products')
 @endsection
 @section('css')
-    <link href="{{ URL::asset('build/libs/nouislider/nouislider.min.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ URL::asset('build/libs/gridjs/theme/mermaid.min.css') }}">
+    <link href="{{ URL::asset('assets/libs/nouislider/nouislider.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ URL::asset('assets/libs/gridjs/theme/mermaid.min.css') }}">
 
 @endsection
 @section('content')
@@ -439,12 +439,12 @@
     </div><!-- /.modal -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/nouislider/nouislider.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/wnumb/wNumb.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/gridjs/gridjs.umd.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/nouislider/nouislider.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/wnumb/wNumb.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
     <script src="https://unpkg.com/gridjs/plugins/selection/dist/selection.umd.js"></script>
 
 
-    <script src="{{ URL::asset('build/js/pages/ecommerce-product-list.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/ecommerce-product-list.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

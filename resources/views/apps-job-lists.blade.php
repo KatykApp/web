@@ -70,17 +70,17 @@
     <!--end col-->
     <div class="col-xxl-3">
         <div class="card job-list-view-card overflow-hidden" id="job-overview">
-            <img src="{{URL::asset('build/images/small/img-10.jpg')}}" alt="" id="cover-img" class="img-fluid background object-fit-cover">
+            <img src="{{URL::asset('assets/images/small/img-10.jpg')}}" alt="" id="cover-img" class="img-fluid background object-fit-cover">
             <div class="card-body">
                 <div class="avatar-md mt-n5">
                     <div class="avatar-title bg-light rounded-circle">
-                        <img src="{{URL::asset('build/images/companies/img-7.png')}}" alt="" class="avatar-xs view-companylogo">
+                        <img src="{{URL::asset('assets/images/companies/img-7.png')}}" alt="" class="avatar-xs view-companylogo">
                     </div>
                 </div>
                 <div class="mt-3">
                     <h5 class="view-title">Product Designer</h5>
                     <div class="hstack gap-3 mb-3">
-                        <span class="text-muted"><i class="ri-building-line me-1 align-bottom"></i> <span class="view-companyname">Themesbrand</span></span>
+                        <span class="text-muted"><i class="ri-assetsing-line me-1 align-bottom"></i> <span class="view-companyname">Themesbrand</span></span>
                         <span class="text-muted"><i class="ri-map-pin-2-line me-1 align-bottom"></i> <span class="view-location">United Kingdom</span></span>
                     </div>
                     <p class="text-muted view-desc">A UI/UX designer's job is to create user-friendly interfaces that enable users to understand how to use complex technical products. If you're passionate about the latest technology trends and devices, you'll find great fulfillment in being involved in the design process for the next hot gadget.</p>
@@ -133,7 +133,7 @@
                         <div class="col-lg-12">
                             <div class="px-1 pt-1">
                                 <div class="modal-team-cover position-relative mb-0 mt-n4 mx-n4 rounded-top overflow-hidden">
-                                    <img src="{{URL::asset('build/images/small/img-9.jpg')}}" alt="" id="modal-cover-img" class="img-fluid">
+                                    <img src="{{URL::asset('assets/images/small/img-9.jpg')}}" alt="" id="modal-cover-img" class="img-fluid">
 
                                     <div class="d-flex position-absolute start-0 end-0 top-0 p-3">
                                         <div class="flex-grow-1">
@@ -171,7 +171,7 @@
                                     </div>
                                     <div class="avatar-lg p-1">
                                         <div class="avatar-title bg-light rounded-circle">
-                                            <img src="{{URL::asset('build/images/users/multi-user.jpg')}}" id="companylogo-img" class="avatar-md rounded-circle object-fit-cover" />
+                                            <img src="{{URL::asset('assets/images/users/multi-user.jpg')}}" id="companylogo-img" class="avatar-md rounded-circle object-fit-cover" />
                                         </div>
                                     </div>
                                 </div>
@@ -252,10 +252,10 @@
 @endsection
 @section('script')
 <!-- apexcharts -->
-<script src="{{URL::asset('build/libs/apexcharts/apexcharts.min.js')}}"></script>
+<script src="{{URL::asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
-<script src="{{URL::asset('build/js/pages/job-list.init.js')}}"></script>
+<script src="{{URL::asset('assets/js/pages/job-list.init.js')}}"></script>
 
 <!-- App js -->
-<script src="{{URL::asset('build/js/app.js')}}"></script>
+<script src="{{URL::asset('assets/js/app.js')}}"></script>
 @endsection

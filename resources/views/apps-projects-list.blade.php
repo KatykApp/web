@@ -81,7 +81,7 @@
                             <div class="flex-shrink-0 me-3">
                                 <div class="avatar-sm">
                                     <span class="avatar-title bg-warning-subtle rounded p-2">
-                                        <img src="{{ URL::asset('build/images/brands/slack.png') }}" alt="" class="img-fluid p-1">
+                                        <img src="{{ URL::asset('assets/images/brands/slack.png') }}" alt="" class="img-fluid p-1">
                                     </span>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Darline Williams">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt="" class="rounded-circle img-fluid">
+                                        <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}" alt="" class="rounded-circle img-fluid">
                                     </div>
                                 </a>
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
@@ -190,7 +190,7 @@
                             <div class="flex-shrink-0 me-3">
                                 <div class="avatar-sm">
                                     <span class="avatar-title bg-danger-subtle rounded p-2">
-                                        <img src="{{ URL::asset('build/images/brands/dribbble.png') }}" alt="" class="img-fluid p-1">
+                                        <img src="{{ URL::asset('assets/images/brands/dribbble.png') }}" alt="" class="img-fluid p-1">
                                     </span>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Brent Gonzalez">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
@@ -243,7 +243,7 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Ellen Smith">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
@@ -315,7 +315,7 @@
                             <div class="flex-shrink-0 me-3">
                                 <div class="avatar-sm">
                                     <span class="avatar-title bg-success-subtle rounded p-2">
-                                        <img src="{{ URL::asset('build/images/brands/mail_chimp.png') }}" alt="" class="img-fluid p-1">
+                                        <img src="{{ URL::asset('assets/images/brands/mail_chimp.png') }}" alt="" class="img-fluid p-1">
                                     </span>
                                 </div>
                             </div>
@@ -354,7 +354,7 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Jeffrey Salazar">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-5.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-5.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
@@ -434,7 +434,7 @@
                             <div class="flex-shrink-0 me-3">
                                 <div class="avatar-sm">
                                     <span class="avatar-title bg-info-subtle rounded p-2">
-                                        <img src="{{ URL::asset('build/images/brands/dropbox.png') }}" alt="" class="img-fluid p-1">
+                                        <img src="{{ URL::asset('assets/images/brands/dropbox.png') }}" alt="" class="img-fluid p-1">
                                     </span>
                                 </div>
                             </div>
@@ -586,14 +586,14 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Lee Winton">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-5.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-5.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Johnny Shorter">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-6.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-6.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
@@ -694,14 +694,14 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Bonnie Haynes">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-7.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-7.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Della Wilson">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-8.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-8.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
@@ -902,7 +902,7 @@
                             <div class="avatar-group">
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Virginia Wall">
-                                    <img src="{{ URL::asset('build/images/users/avatar-8.jpg') }}" alt="" class="rounded-circle avatar-xxs">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-8.jpg') }}" alt="" class="rounded-circle avatar-xxs">
                                 </a>
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Add Members">
@@ -975,7 +975,7 @@
                             </div>
                         </div>
                         <div class="text-center pb-3">
-                            <img src="{{ URL::asset('build/images/brands/dribbble.png') }}" alt="" height="32">
+                            <img src="{{ URL::asset('assets/images/brands/dribbble.png') }}" alt="" height="32">
                         </div>
                     </div>
 
@@ -1011,7 +1011,7 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Ruby Miller">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-5.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-5.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
@@ -1083,7 +1083,7 @@
                             </div>
                         </div>
                         <div class="text-center pb-3">
-                            <img src="{{ URL::asset('build/images/brands/slack.png') }}" alt="" height="32">
+                            <img src="{{ URL::asset('assets/images/brands/slack.png') }}" alt="" height="32">
                         </div>
                     </div>
                     <div class="py-3">
@@ -1109,11 +1109,11 @@
                             <div class="avatar-group">
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Irma Metz">
-                                    <img src="{{ URL::asset('build/images/users/avatar-9.jpg') }}" alt="" class="rounded-circle avatar-xxs">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-9.jpg') }}" alt="" class="rounded-circle avatar-xxs">
                                 </a>
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="James Clem">
-                                    <img src="{{ URL::asset('build/images/users/avatar-10.jpg') }}" alt="" class="rounded-circle avatar-xxs">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-10.jpg') }}" alt="" class="rounded-circle avatar-xxs">
                                 </a>
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Add Members">
@@ -1182,7 +1182,7 @@
                             </div>
                         </div>
                         <div class="text-center pb-3">
-                            <img src="{{ URL::asset('build/images/brands/dropbox.png') }}" alt="" height="32">
+                            <img src="{{ URL::asset('assets/images/brands/dropbox.png') }}" alt="" height="32">
                         </div>
                     </div>
 
@@ -1210,7 +1210,7 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Brent Gonzalez">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
@@ -1225,7 +1225,7 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Ellen Smith">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
@@ -1297,7 +1297,7 @@
                             </div>
                         </div>
                         <div class="text-center pb-3">
-                            <img src="{{ URL::asset('build/images/brands/mail_chimp.png') }}" alt="" height="32">
+                            <img src="{{ URL::asset('assets/images/brands/mail_chimp.png') }}" alt="" height="32">
                         </div>
                     </div>
 
@@ -1333,14 +1333,14 @@
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Lee Winton">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-5.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-5.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
                                 <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                     data-bs-trigger="hover" data-bs-placement="top" title="Johnny Shorter">
                                     <div class="avatar-xxs">
-                                        <img src="{{ URL::asset('build/images/users/avatar-6.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-6.jpg') }}" alt=""
                                             class="rounded-circle img-fluid">
                                     </div>
                                 </a>
@@ -1447,6 +1447,6 @@
     </div><!-- /.modal -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/js/pages/project-list.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/project-list.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

@@ -82,7 +82,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/btc.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/btc.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Bitcoin (BTC)</a>
                                     </div>
@@ -101,7 +101,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/eth.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/eth.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Ethereum (ETH)</a>
                                     </div>
@@ -120,7 +120,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/xmr.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/xmr.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Monero (XMR)</a>
                                     </div>
@@ -139,7 +139,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/mkr.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/mkr.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Maker (MKR)</a>
                                     </div>
@@ -158,7 +158,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/yfi.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/yfi.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Yearn.finance (YFI)</a>
                                     </div>
@@ -177,7 +177,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/mkr.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/mkr.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Maker (MKR)</a>
                                     </div>
@@ -196,7 +196,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/ltc.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/ltc.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Litecoin (LTC)</a>
                                     </div>
@@ -215,7 +215,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/xmr.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/xmr.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Monero (XMR)</a>
                                     </div>
@@ -234,7 +234,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/dash.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/dash.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Dash (DASH)</a>
                                     </div>
@@ -253,7 +253,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/neo.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/neo.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Neo (NEO)</a>
                                     </div>
@@ -272,7 +272,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/mln.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/mln.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Enzyme (MLN)</a>
                                     </div>
@@ -291,7 +291,7 @@
                                 <td>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="{{URL::asset('build/images/svg/crypto-icons/eth.svg')}}" alt="" class="avatar-xxs" />
+                                            <img src="{{URL::asset('assets/images/svg/crypto-icons/eth.svg')}}" alt="" class="avatar-xxs" />
                                         </div>
                                         <a href="javascript:void(0);" class="flex-grow-1 ms-2 currency_name">Ethereum (ETH)</a>
                                     </div>
@@ -336,9 +336,9 @@
 
 @endsection
 @section('script')
-<script src="{{ URL::asset('build/libs/list.js/list.min.js') }}"></script>
-<script src="{{ URL::asset('build/libs/list.pagination.js/list.pagination.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/list.js/list.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/list.pagination.js/list.pagination.min.js') }}"></script>
 
-<script src="{{ URL::asset('build/js/pages/crypto-orders.init.js') }}"></script>
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/crypto-orders.init.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

@@ -14,8 +14,8 @@
                     <div class="card-header border-bottom-dashed p-4">
                         <div class="d-flex">
                             <div class="flex-grow-1">
-                                <img src="{{ URL::asset('build/images/logo-dark.png') }}" class="card-logo card-logo-dark" alt="logo dark" height="17">
-                                <img src="{{ URL::asset('build/images/logo-light.png') }}" class="card-logo card-logo-light" alt="logo light" height="17">
+                                <img src="{{ URL::asset('assets/images/logo-dark.png') }}" class="card-logo card-logo-dark" alt="logo dark" height="17">
+                                <img src="{{ URL::asset('assets/images/logo-light.png') }}" class="card-logo card-logo-light" alt="logo light" height="17">
                                 <div class="mt-sm-5 mt-4">
                                     <h6 class="text-muted text-uppercase fw-semibold">Address</h6>
                                     <p class="text-muted mb-1" id="address-details">California, United States</p>
@@ -216,6 +216,6 @@
 <!--end row-->
 @endsection
 @section('script')
-<script src="{{ URL::asset('build/js/pages/invoicedetails.js') }}"></script>
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/invoicedetails.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

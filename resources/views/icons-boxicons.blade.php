@@ -1,9 +1,15 @@
 @extends('layouts.master')
-@section('title') @lang('translation.boxicons') @endsection
+@section('title')
+    @lang('translation.boxicons')
+@endsection
 @section('content')
     @component('components.breadcrumb')
-        @slot('li_1') Icons @endslot
-        @slot('title') Boxicons @endslot
+        @slot('li_1')
+            Icons
+        @endslot
+        @slot('title')
+            Boxicons
+        @endslot
     @endcomponent
 
     <div class="row">
@@ -4774,5 +4780,5 @@
     <!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

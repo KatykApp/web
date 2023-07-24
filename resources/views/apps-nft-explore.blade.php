@@ -2,7 +2,7 @@
 @section('title') @lang('translation.explore-now') @endsection
 @section('css')
 <!-- nouisliderribute css -->
-<link href="{{ URL::asset('build/libs/nouislider/nouislider.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ URL::asset('assets/libs/nouislider/nouislider.min.css') }}" rel="stylesheet" type="text/css" />
 @endsection
 @section('content')
 @component('components.breadcrumb')
@@ -106,11 +106,11 @@
 @section('script')
 
 <!-- nouisliderribute js -->
-<script src="{{ URL::asset('build/libs/nouislider/nouislider.min.js') }}"></script>
-<script src="{{ URL::asset('build/libs/wnumb/wNumb.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/nouislider/nouislider.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/wnumb/wNumb.min.js') }}"></script>
 
-<script src="{{ URL::asset('build/js/pages/apps-nft-explore.init.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/apps-nft-explore.init.js') }}"></script>
 
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 
 @endsection

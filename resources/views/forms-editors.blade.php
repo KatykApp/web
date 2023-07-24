@@ -1,14 +1,20 @@
 @extends('layouts.master')
-@section('title') @lang('translation.editors') @endsection
+@section('title')
+    @lang('translation.editors')
+@endsection
 @section('css')
-    <link href="{{ URL::asset('build/libs/quill/quill.core.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ URL::asset('build/libs/quill/quill.bubble.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ URL::asset('build/libs/quill/quill.snow.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('assets/libs/quill/quill.core.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('assets/libs/quill/quill.bubble.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('assets/libs/quill/quill.snow.css') }}" rel="stylesheet" type="text/css" />
 @endsection
 @section('content')
     @component('components.breadcrumb')
-        @slot('li_1') Forms @endslot
-        @slot('title') Form Editors @endslot
+        @slot('li_1')
+            Forms
+        @endslot
+        @slot('title')
+            Form Editors
+        @endslot
     @endcomponent
     <div class="row">
         <div class="col-lg-12">
@@ -18,7 +24,7 @@
                 </div><!-- end card header -->
 
                 <div class="card-body">
-                <p class="text-muted">Use <code>ckeditor-classic</code> class to set ckeditor classic editor.</p>
+                    <p class="text-muted">Use <code>ckeditor-classic</code> class to set ckeditor classic editor.</p>
                     <div class="ckeditor-classic"></div>
                 </div><!-- end card-body -->
             </div><!-- end card -->
@@ -69,7 +75,7 @@
 
                 <div class="card-body">
                     <p class="text-muted">Use <code>bubble-editor</code> class to set bubble editor.</p>
-                    <div class ="bubble-editor" style="height: 300px;">
+                    <div class="bubble-editor" style="height: 300px;">
                         <h3><span class="ql-size-large">Hello World!</span></h3>
                         <p><br></p>
                         <h3>This is an simple editable area.</h3>
@@ -96,8 +102,8 @@
     <!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/quill/quill.min.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/form-editor.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/quill/quill.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/form-editor.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

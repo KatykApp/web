@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title') @lang('translation.create-product') @endsection
 @section('css')
-<link href="{{ URL::asset('build/libs/dropzone/dropzone.css') }}" rel="stylesheet">
+<link href="{{ URL::asset('assets/libs/dropzone/dropzone.css') }}" rel="stylesheet">
 @endsection
 @section('content')
 @component('components.breadcrumb')
@@ -322,11 +322,11 @@
 
 @endsection
 @section('script')
-<script src="{{ URL::asset('build/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/@ckeditor/ckeditor5-assets-classic/assets/ckeditor.js') }}"></script>
 
-<script src="{{ URL::asset('build/libs/dropzone/dropzone-min.js') }}"></script>
-<script src="{{ URL::asset('build/js/pages/ecommerce-product-create.init.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/dropzone/dropzone-min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/ecommerce-product-create.init.js') }}"></script>
 
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection
 

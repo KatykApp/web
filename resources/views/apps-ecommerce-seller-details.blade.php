@@ -1,8 +1,8 @@
 @extends('layouts.master')
 @section('title') @lang('translation.sellers-details') @endsection
 @section('css')
-<link href="{{ URL::asset('build/libs/gridjs/theme/mermaid.min.css') }}" rel="stylesheet">
-<link href="{{ URL::asset('build/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+<link href="{{ URL::asset('assets/libs/gridjs/theme/mermaid.min.css') }}" rel="stylesheet">
+<link href="{{ URL::asset('assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
 @endsection
 @section('content')
@@ -17,7 +17,7 @@
                 <div>
                     <div class="flex-shrink-0 avatar-md mx-auto">
                         <div class="avatar-title bg-light rounded">
-                            <img src="{{ URL::asset('build/images/companies/img-2.png') }}" alt="" height="50" />
+                            <img src="{{ URL::asset('assets/images/companies/img-2.png') }}" alt="" height="50" />
                         </div>
                     </div>
                     <div class="mt-4 text-center">
@@ -220,7 +220,7 @@
                                     <div class="d-flex">
                                         <div class="flex-shrink-0 avatar-sm">
                                             <div class="avatar-title bg-light rounded">
-                                                <img src="{{ URL::asset('build/images/companies/img-1.png') }}" alt=""
+                                                <img src="{{ URL::asset('assets/images/companies/img-1.png') }}" alt=""
                                                     height="30">
                                             </div>
                                         </div>
@@ -250,7 +250,7 @@
                                 <div class="card-body">
                                     <div class="d-flex">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt=""
+                                            <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt=""
                                                 class="avatar-sm rounded">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
@@ -280,7 +280,7 @@
                                     <div class="d-flex">
                                         <div class="flex-shrink-0 avatar-sm">
                                             <div class="avatar-title bg-light rounded">
-                                                <img src="{{ URL::asset('build/images/companies/img-8.png') }}" alt=""
+                                                <img src="{{ URL::asset('assets/images/companies/img-8.png') }}" alt=""
                                                     height="30">
                                             </div>
                                         </div>
@@ -311,7 +311,7 @@
                                 <div class="card-body">
                                     <div class="d-flex">
                                         <div class="flex-shrink-0">
-                                            <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt=""
+                                            <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}" alt=""
                                                 class="avatar-sm rounded">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
@@ -455,12 +455,12 @@
 <!--end row-->
 @endsection
 @section('script')
-<script src="{{ URL::asset('build/libs/nouislider/nouislider.min.js') }}"></script>
-<script src="{{ URL::asset('build/libs/wnumb/wNumb.min.js') }}"></script>
-<script src="{{ URL::asset('build/libs/gridjs/gridjs.umd.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/nouislider/nouislider.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/wnumb/wNumb.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
 <script src="https://unpkg.com/gridjs/plugins/selection/dist/selection.umd.js"></script>
-<script src="{{ URL::asset('build/libs/apexcharts/apexcharts.min.js') }}"></script>
-<script src="{{ URL::asset('build/libs/swiper/swiper-bundle.min.js') }}"></script>
-<script src="{{ URL::asset('build/js/pages/seller-details.init.js') }}"></script>
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/swiper/swiper-bundle.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/seller-details.init.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

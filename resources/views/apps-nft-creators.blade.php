@@ -41,7 +41,7 @@
             <div class="card-body">
                 <div class="d-flex">
                     <div class="flex-shrink-0">
-                        <img src="{{URL::asset('build/images/nft/img-01.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
+                        <img src="{{URL::asset('assets/images/nft/img-01.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
                     </div>
                     <div class="ms-3 flex-grow-1">
                         <a href="pages-profile">
@@ -70,7 +70,7 @@
             <div class="card-body">
                 <div class="d-flex">
                     <div class="flex-shrink-0">
-                        <img src="{{URL::asset('build/images/users/avatar-5.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
+                        <img src="{{URL::asset('assets/images/users/avatar-5.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
                     </div>
                     <div class="ms-3 flex-grow-1">
                         <a href="pages-profile">
@@ -99,7 +99,7 @@
             <div class="card-body">
                 <div class="d-flex">
                     <div class="flex-shrink-0">
-                        <img src="{{URL::asset('build/images/nft/img-06.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
+                        <img src="{{URL::asset('assets/images/nft/img-06.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
                     </div>
                     <div class="ms-3 flex-grow-1">
                         <a href="pages-profile">
@@ -157,7 +157,7 @@
             <div class="card-body">
                 <div class="d-flex">
                     <div class="flex-shrink-0">
-                        <img src="{{URL::asset('build/images/users/avatar-8.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
+                        <img src="{{URL::asset('assets/images/users/avatar-8.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
                     </div>
                     <div class="ms-3 flex-grow-1">
                         <a href="pages-profile">
@@ -186,7 +186,7 @@
             <div class="card-body">
                 <div class="d-flex">
                     <div class="flex-shrink-0">
-                        <img src="{{URL::asset('build/images/nft/img-04.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
+                        <img src="{{URL::asset('assets/images/nft/img-04.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
                     </div>
                     <div class="ms-3 flex-grow-1">
                         <a href="pages-profile">
@@ -215,7 +215,7 @@
             <div class="card-body">
                 <div class="d-flex">
                     <div class="flex-shrink-0">
-                        <img src="{{URL::asset('build/images/nft/img-05.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
+                        <img src="{{URL::asset('assets/images/nft/img-05.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
                     </div>
                     <div class="ms-3 flex-grow-1">
                         <a href="pages-profile">
@@ -244,7 +244,7 @@
             <div class="card-body">
                 <div class="d-flex">
                     <div class="flex-shrink-0">
-                        <img src="{{URL::asset('build/images/nft/img-02.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
+                        <img src="{{URL::asset('assets/images/nft/img-02.jpg')}}" alt="" class="avatar-sm object-fit-cover rounded">
                     </div>
                     <div class="ms-3 flex-grow-1">
                         <a href="pages-profile">
@@ -280,9 +280,9 @@
 <div class="row row-cols-xl-5 row-cols-lg-3 row-cols-md-2 row-cols-1">
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-03.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-03.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/users/avatar-2.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
+                <img src="{{URL::asset('assets/images/users/avatar-2.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
                     <h5 class="mt-2 mb-1">Michael Morris</h5>
                 </a>
@@ -297,7 +297,7 @@
         <div class="card">
             <img src="https://img.themesbrand.com/velzon/images/img-3.gif" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/users/avatar-6.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
+                <img src="{{URL::asset('assets/images/users/avatar-6.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
                     <h5 class="mt-2 mb-1">Charles Kubik</h5>
                 </a>
@@ -310,9 +310,9 @@
     <!--end col-->
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-05.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-05.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/nft/img-06.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
+                <img src="{{URL::asset('assets/images/nft/img-06.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
                     <h5 class="mt-2 mb-1">Alexis Clarke</h5>
                 </a>
@@ -325,7 +325,7 @@
     <!--end col-->
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-06.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-06.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
                 <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
@@ -342,7 +342,7 @@
         <div class="card">
             <img src="https://img.themesbrand.com/velzon/images/img-3.gif" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/users/avatar-8.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
+                <img src="{{URL::asset('assets/images/users/avatar-8.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
                     <h5 class="mt-2 mb-1">Herbert Stokes</h5>
                 </a>
@@ -355,9 +355,9 @@
     <!--end col-->
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-03.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-03.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/users/avatar-2.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
+                <img src="{{URL::asset('assets/images/users/avatar-2.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
                     <h5 class="mt-2 mb-1">Michael Morris</h5>
                 </a>
@@ -372,7 +372,7 @@
         <div class="card">
             <img src="https://img.themesbrand.com/velzon/images/img-2.gif" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/users/avatar-6.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
+                <img src="{{URL::asset('assets/images/users/avatar-6.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
                     <h5 class="mt-2 mb-1">Tonya Noble</h5>
                 </a>
@@ -385,9 +385,9 @@
     <!--end col-->
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-05.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-05.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/nft/img-06.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
+                <img src="{{URL::asset('assets/images/nft/img-06.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
                     <h5 class="mt-2 mb-1">Nancy Martino</h5>
                 </a>
@@ -400,7 +400,7 @@
     <!--end col-->
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-01.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-01.jpg')}}" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
                 <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
@@ -417,7 +417,7 @@
         <div class="card">
             <img src="https://img.themesbrand.com/velzon/images/img-4.gif" alt="" class="object-fit-cover card-img-top" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/users/avatar-10.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
+                <img src="{{URL::asset('assets/images/users/avatar-10.jpg')}}" alt="" class="avatar-md rounded-circle object-fit-cover mt-n5 img-thumbnail border-light border-5 border-white mx-auto d-block">
                 <a href="pages-profile">
                     <h5 class="mt-2 mb-1">Glen Matney</h5>
                 </a>
@@ -468,5 +468,5 @@
 
 @endsection
 @section('script')
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

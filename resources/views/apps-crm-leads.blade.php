@@ -3,7 +3,7 @@
     @lang('translation.leads')
 @endsection
 @section('css')
-<link href="{{ URL::asset('build/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet">
+<link href="{{ URL::asset('assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet">
 
 @endsection
 @section('css')
@@ -98,7 +98,7 @@
                                         <td>
                                             <div class="d-flex align-items-center">
                                                 <div class="flex-shrink-0">
-                                                    <img src="{{ URL::asset('build/images/users/avatar-10.jpg') }}"
+                                                    <img src="{{ URL::asset('assets/images/users/avatar-10.jpg') }}"
                                                         alt="" class="avatar-xxs rounded-circle image_src object-fit-cover" >
                                                 </div>
                                                 <div class="flex-grow-1 ms-2 name">Tonya Noble</div>
@@ -212,7 +212,7 @@
                                                         </div>
                                                         <div class="avatar-lg p-1">
                                                             <div class="avatar-title bg-light rounded-circle">
-                                                                <img src="{{ URL::asset('build/images/users/user-dummy-img.jpg') }}"
+                                                                <img src="{{ URL::asset('assets/images/users/user-dummy-img.jpg') }}"
                                                         alt="" id="lead-img" class="avatar-md rounded-circle object-fit-cover" >
                                                             </div>
                                                         </div>
@@ -559,9 +559,9 @@
     <!--end row-->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/list.js/list.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/list.pagination.js/list.pagination.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/sweetalert2/sweetalert2.min.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/crm-leads.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/list.js/list.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/list.pagination.js/list.pagination.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/sweetalert2/sweetalert2.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/crm-leads.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

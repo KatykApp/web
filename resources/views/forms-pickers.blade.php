@@ -3,9 +3,11 @@
     @lang('translation.pickers')
 @endsection
 @section('css')
-    <link rel="stylesheet" href="{{ URL::asset('build/libs/@simonwep/pickr/themes/classic.min.css') }}" /> <!-- 'classic' theme -->
-    <link rel="stylesheet" href="{{ URL::asset('build/libs/@simonwep/pickr/themes/monolith.min.css') }}" /> <!-- 'monolith' theme -->
-    <link rel="stylesheet" href="{{ URL::asset('build/libs/@simonwep/pickr/themes/nano.min.css') }}" /> <!-- 'nano' theme -->
+    <link rel="stylesheet" href="{{ URL::asset('assets/libs/@simonwep/pickr/themes/classic.min.css') }}" />
+    <!-- 'classic' theme -->
+    <link rel="stylesheet" href="{{ URL::asset('assets/libs/@simonwep/pickr/themes/monolith.min.css') }}" />
+    <!-- 'monolith' theme -->
+    <link rel="stylesheet" href="{{ URL::asset('assets/libs/@simonwep/pickr/themes/nano.min.css') }}" /> <!-- 'nano' theme -->
 @endsection
 @section('content')
     @component('components.breadcrumb')
@@ -362,7 +364,7 @@
     <!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/@simonwep/pickr/pickr.min.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/form-pickers.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/@simonwep/pickr/pickr.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/form-pickers.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

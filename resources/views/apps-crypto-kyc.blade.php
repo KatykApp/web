@@ -31,7 +31,7 @@
 
                         <div class="row justify-content-center mt-5 mb-2">
                             <div class="col-sm-7 col-8">
-                                <img src="{{ URL::asset('build/images/verification-img.png') }}" alt=""
+                                <img src="{{ URL::asset('assets/images/verification-img.png') }}" alt=""
                                     class="img-fluid" />
                             </div>
                         </div>
@@ -398,7 +398,7 @@
     <!--end modal-->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/dropzone/dropzone-min.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/crypto-kyc.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/dropzone/dropzone-min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/crypto-kyc.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

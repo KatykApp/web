@@ -25,7 +25,7 @@
                 <div class="row gy-3">
                     <div class="col-sm-auto">
                         <div class="avatar-lg bg-light rounded p-1">
-                            <img src="{{ URL::asset('build/images/products/img-8.png') }}" alt=""
+                            <img src="{{ URL::asset('assets/images/products/img-8.png') }}" alt=""
                                 class="img-fluid d-block">
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                 <div class="row gy-3">
                     <div class="col-sm-auto">
                         <div class="avatar-lg bg-light rounded p-1">
-                            <img src="{{ URL::asset('build/images/products/img-7.png') }}" alt=""
+                            <img src="{{ URL::asset('assets/images/products/img-7.png') }}" alt=""
                                 class="img-fluid d-block">
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                 <div class="row gy-3">
                     <div class="col-sm-auto">
                         <div class="avatar-lg bg-light rounded p-1">
-                            <img src="{{ URL::asset('build/images/products/img-3.png') }}" alt=""
+                            <img src="{{ URL::asset('assets/images/products/img-3.png') }}" alt=""
                                 class="img-fluid d-block">
                         </div>
                     </div>
@@ -329,7 +329,7 @@
 
 @endsection
 @section('script')
-<script src="{{ URL::asset('build/js/pages/form-input-spin.init.js') }}"></script>
-<script src="{{ URL::asset('build/js/pages/ecommerce-cart.init.js') }}"></script>
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/form-input-spin.init.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/ecommerce-cart.init.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

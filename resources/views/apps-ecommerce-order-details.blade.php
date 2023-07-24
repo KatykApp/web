@@ -34,7 +34,7 @@
                                     <td>
                                         <div class="d-flex">
                                             <div class="flex-shrink-0 avatar-md bg-light rounded p-1">
-                                                <img src="{{ URL::asset('build/images/products/img-8.png') }}" alt="" class="img-fluid d-block">
+                                                <img src="{{ URL::asset('assets/images/products/img-8.png') }}" alt="" class="img-fluid d-block">
                                             </div>
                                            <div class="flex-grow-1 ms-3">
                                                 <h5 class="fs-15"><a href="apps-ecommerce-product-details" class="link-primary">Sweatshirt for Men (Pink)</a></h5>
@@ -58,7 +58,7 @@
                                     <td>
                                         <div class="d-flex">
                                             <div class="flex-shrink-0 avatar-md bg-light rounded p-1">
-                                                <img src="{{ URL::asset('build/images/products/img-7.png') }}" alt="" class="img-fluid d-block">
+                                                <img src="{{ URL::asset('assets/images/products/img-7.png') }}" alt="" class="img-fluid d-block">
                                             </div>
                                            <div class="flex-grow-1 ms-3">
                                                 <h5 class="fs-15"><a href="apps-ecommerce-product-details" class="link-primary">Noise NoiseFit Endure Smart Watch</a></h5>
@@ -82,7 +82,7 @@
                                     <td>
                                         <div class="d-flex">
                                             <div class="flex-shrink-0 avatar-md bg-light rounded p-1">
-                                                <img src="{{ URL::asset('build/images/products/img-3.png') }}" alt="" class="img-fluid d-block">
+                                                <img src="{{ URL::asset('assets/images/products/img-3.png') }}" alt="" class="img-fluid d-block">
                                             </div>
                                            <div class="flex-grow-1 ms-3">
                                                 <h5 class="fs-15"><a href="apps-ecommerce-product-details" class="link-primary">350 ml Glass Grocery Container</a></h5>
@@ -290,7 +290,7 @@
                         <li>
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0">
-                                    <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt="" class="avatar-sm rounded">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt="" class="avatar-sm rounded">
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                    <h6 class="fs-14 mb-1">Joseph Parkers</h6>
@@ -383,5 +383,5 @@
     </div><!--end row-->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

@@ -3,7 +3,7 @@
     @lang('translation.create-project')
 @endsection
 @section('css')
-    <link href="{{ URL::asset('build/libs/dropzone/dropzone.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('assets/libs/dropzone/dropzone.css') }}" rel="stylesheet">
 @endsection
 @section('content')
     @component('components.breadcrumb')
@@ -205,7 +205,7 @@
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                 data-bs-trigger="hover" data-bs-placement="top" title="Brent Gonzalez">
                                 <div class="avatar-xs">
-                                    <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt="" class="rounded-circle img-fluid">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt="" class="rounded-circle img-fluid">
                                 </div>
                             </a>
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
@@ -219,7 +219,7 @@
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                 data-bs-trigger="hover" data-bs-placement="top" title="Ellen Smith">
                                 <div class="avatar-xs">
-                                    <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt="" class="rounded-circle img-fluid">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}" alt="" class="rounded-circle img-fluid">
                                 </div>
                             </a>
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
@@ -267,7 +267,7 @@
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                 data-bs-trigger="hover" data-bs-placement="top" title="Brent Gonzalez">
                                 <div class="avatar-xs">
-                                    <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt="" class="rounded-circle img-fluid">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt="" class="rounded-circle img-fluid">
                                 </div>
                             </a>
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
@@ -281,7 +281,7 @@
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                 data-bs-trigger="hover" data-bs-placement="top" title="Ellen Smith">
                                 <div class="avatar-xs">
-                                    <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt="" class="rounded-circle img-fluid">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}" alt="" class="rounded-circle img-fluid">
                                 </div>
                             </a>
                         </div>
@@ -290,7 +290,7 @@
                         <div class="vstack gap-3">
                             <div class="d-flex align-items-center">
                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                    <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt="" class="img-fluid rounded-circle">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}" alt="" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Nancy Martino</a>
@@ -317,7 +317,7 @@
                             <!-- end member item -->
                             <div class="d-flex align-items-center">
                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                    <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt="" class="img-fluid rounded-circle">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt="" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Frank Hook</a></h5>
@@ -329,7 +329,7 @@
                             <!-- end member item -->
                             <div class="d-flex align-items-center">
                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                    <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt="" class="img-fluid rounded-circle">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}" alt="" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Jennifer Carter</a>
@@ -357,7 +357,7 @@
                             <!-- end member item -->
                             <div class="d-flex align-items-center">
                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                    <img src="{{ URL::asset('build/images/users/avatar-7.jpg') }}" alt="" class="img-fluid rounded-circle">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-7.jpg') }}" alt="" class="img-fluid rounded-circle">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Joseph Parker</a>
@@ -384,8 +384,8 @@
     <!-- end modal -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/dropzone/dropzone-min.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/project-create.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/dropzone/dropzone-min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/project-create.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

@@ -13,7 +13,7 @@
                                 <div class="col-md-auto">
                                     <div class="avatar-md">
                                         <div class="avatar-title bg-white rounded-circle">
-                                            <img src="{{URL::asset('build/images/brands/slack.png')}}" alt="" class="avatar-xs">
+                                            <img src="{{URL::asset('assets/images/brands/slack.png')}}" alt="" class="avatar-xs">
                                         </div>
                                     </div>
                                 </div>
@@ -21,7 +21,7 @@
                                     <div>
                                         <h4 class="fw-bold">Product Designer</h4>
                                         <div class="hstack gap-3 flex-wrap">
-                                            <div><i class="ri-building-line align-bottom me-1"></i> Themesbrand</div>
+                                            <div><i class="ri-assetsing-line align-bottom me-1"></i> Themesbrand</div>
                                             <div class="vr"></div>
                                             <div><i class="ri-map-pin-2-line align-bottom me-1"></i> Zuweihir, UAE</div>
                                             <div class="vr"></div>
@@ -155,7 +155,7 @@
                         <button type="button" class="btn btn-icon btn-soft-primary float-end" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         <div class="avatar-sm mb-4">
                             <div class="avatar-title bg-secondary-subtle rounded">
-                                <img src="{{URL::asset('build/images/companies/img-1.png')}}" alt="" class="avatar-xxs" />
+                                <img src="{{URL::asset('assets/images/companies/img-1.png')}}" alt="" class="avatar-xxs" />
                             </div>
                         </div>
                         <a href="#!">
@@ -194,7 +194,7 @@
                         <button type="button" class="btn btn-icon btn-soft-primary float-end" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         <div class="avatar-sm mb-4">
                             <div class="avatar-title bg-info-subtle rounded">
-                                <img src="{{URL::asset('build/images/companies/img-2.png')}}" alt="" class="avatar-xxs" />
+                                <img src="{{URL::asset('assets/images/companies/img-2.png')}}" alt="" class="avatar-xxs" />
                             </div>
                         </div>
                         <a href="#!">
@@ -232,7 +232,7 @@
                         <button type="button" class="btn btn-icon btn-soft-primary float-end" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         <div class="avatar-sm mb-4">
                             <div class="avatar-title bg-warning-subtle rounded">
-                                <img src="{{URL::asset('build/images/companies/img-3.png')}}" alt="" class="avatar-xxs" />
+                                <img src="{{URL::asset('assets/images/companies/img-3.png')}}" alt="" class="avatar-xxs" />
                             </div>
                         </div>
                         <a href="#!">
@@ -270,7 +270,7 @@
                         <button type="button" class="btn btn-icon btn-soft-primary float-end" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         <div class="avatar-sm mb-4">
                             <div class="avatar-title bg-secondary-subtle rounded">
-                                <img src="{{URL::asset('build/images/companies/img-1.png')}}" alt="" class="avatar-xxs" />
+                                <img src="{{URL::asset('assets/images/companies/img-1.png')}}" alt="" class="avatar-xxs" />
                             </div>
                         </div>
                         <a href="#!">
@@ -309,7 +309,7 @@
                         <button type="button" class="btn btn-icon btn-soft-primary float-end" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         <div class="avatar-sm mb-4">
                             <div class="avatar-title bg-info-subtle rounded">
-                                <img src="{{URL::asset('build/images/companies/img-2.png')}}" alt="" class="avatar-xxs" />
+                                <img src="{{URL::asset('assets/images/companies/img-2.png')}}" alt="" class="avatar-xxs" />
                             </div>
                         </div>
                         <a href="#!">
@@ -347,7 +347,7 @@
                         <button type="button" class="btn btn-icon btn-soft-primary float-end" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                         <div class="avatar-sm mb-4">
                             <div class="avatar-title bg-warning-subtle rounded">
-                                <img src="{{URL::asset('build/images/companies/img-3.png')}}" alt="" class="avatar-xxs" />
+                                <img src="{{URL::asset('assets/images/companies/img-3.png')}}" alt="" class="avatar-xxs" />
                             </div>
                         </div>
                         <a href="#!">
@@ -444,7 +444,7 @@
             <div class="card-body">
                 <div class="avatar-sm mx-auto">
                     <div class="avatar-title bg-warning-subtle rounded">
-                        <img src="{{URL::asset('build/images/companies/img-3.png')}}" alt="" class="avatar-xxs">
+                        <img src="{{URL::asset('assets/images/companies/img-3.png')}}" alt="" class="avatar-xxs">
                     </div>
                 </div>
                 <div class="text-center">
@@ -546,5 +546,5 @@
 @section('script')
 
 <!-- App js -->
-<script src="{{URL::asset('build/js/app.js')}}"></script>
+<script src="{{URL::asset('assets/js/app.js')}}"></script>
 @endsection

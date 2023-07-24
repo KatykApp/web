@@ -14,7 +14,8 @@
                                     <div class="col-md-auto">
                                         <div class="avatar-md">
                                             <div class="avatar-title bg-white rounded-circle">
-                                                <img src="{{ URL::asset('build/images/brands/slack.png') }}" alt="" class="avatar-xs">
+                                                <img src="{{ URL::asset('assets/images/brands/slack.png') }}" alt=""
+                                                    class="avatar-xs">
                                             </div>
                                         </div>
                                     </div>
@@ -58,12 +59,14 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-semibold" data-bs-toggle="tab" href="#project-documents" role="tab">
+                                <a class="nav-link fw-semibold" data-bs-toggle="tab" href="#project-documents"
+                                    role="tab">
                                     Documents
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-semibold" data-bs-toggle="tab" href="#project-activities" role="tab">
+                                <a class="nav-link fw-semibold" data-bs-toggle="tab" href="#project-activities"
+                                    role="tab">
                                     Activities
                                 </a>
                             </li>
@@ -265,8 +268,8 @@
                                     <div data-simplebar style="height: 300px;" class="px-3 mx-n3 mb-2">
                                         <div class="d-flex mb-4">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ URL::asset('build/images/users/avatar-8.jpg') }}" alt=""
-                                                    class="avatar-xs rounded-circle" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-8.jpg') }}"
+                                                    alt="" class="avatar-xs rounded-circle" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h5 class="fs-13">Joseph Parker <small class="text-muted ms-2">20
@@ -277,16 +280,17 @@
                                                         class="mdi mdi-reply"></i> Reply</a>
                                                 <div class="d-flex mt-4">
                                                     <div class="flex-shrink-0">
-                                                        <img src="{{ URL::asset('build/images/users/avatar-10.jpg') }}" alt=""
-                                                            class="avatar-xs rounded-circle" />
+                                                        <img src="{{ URL::asset('assets/images/users/avatar-10.jpg') }}"
+                                                            alt="" class="avatar-xs rounded-circle" />
                                                     </div>
                                                     <div class="flex-grow-1 ms-3">
-                                                        <h5 class="fs-13">Alexis Clarke <small
-                                                                class="text-muted ms-2">22 Dec 2021 - 02:32PM</small></h5>
+                                                        <h5 class="fs-13">Alexis Clarke <small class="text-muted ms-2">22
+                                                                Dec 2021 - 02:32PM</small></h5>
                                                         <p class="text-muted">Please be sure to check your Spam mailbox
                                                             to see if your email filters have identified the email from Dell
                                                             as spam.</p>
-                                                        <a href="javascript: void(0);" class="badge text-muted bg-light"><i
+                                                        <a href="javascript: void(0);"
+                                                            class="badge text-muted bg-light"><i
                                                                 class="mdi mdi-reply"></i> Reply</a>
                                                     </div>
                                                 </div>
@@ -294,15 +298,16 @@
                                         </div>
                                         <div class="d-flex mb-4">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ URL::asset('build/images/users/avatar-6.jpg') }}" alt=""
-                                                    class="avatar-xs rounded-circle" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-6.jpg') }}"
+                                                    alt="" class="avatar-xs rounded-circle" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h5 class="fs-13">Donald Palmer <small class="text-muted ms-2">24
                                                         Dec 2021 - 05:20PM</small></h5>
                                                 <p class="text-muted">If you have further questions, please contact
                                                     Customer Support from the “Action Menu” on your <a
-                                                        href="javascript:void(0);" class="text-decoration-underline">Online
+                                                        href="javascript:void(0);"
+                                                        class="text-decoration-underline">Online
                                                         Order Support</a>.</p>
                                                 <a href="javascript: void(0);" class="badge text-muted bg-light"><i
                                                         class="mdi mdi-reply"></i> Reply</a>
@@ -310,8 +315,8 @@
                                         </div>
                                         <div class="d-flex">
                                             <div class="flex-shrink-0">
-                                                <img src="{{ URL::asset('build/images/users/avatar-10.jpg') }}" alt=""
-                                                    class="avatar-xs rounded-circle" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-10.jpg') }}"
+                                                    alt="" class="avatar-xs rounded-circle" />
                                             </div>
                                             <div class="flex-grow-1 ms-3">
                                                 <h5 class="fs-13">Alexis Clarke <small class="text-muted ms-2">26
@@ -323,27 +328,28 @@
                                                     Support and more.</p>
                                                 <div class="row g-2 mb-3">
                                                     <div class="col-lg-1 col-sm-2 col-6">
-                                                        <img src="{{ URL::asset('build/images/small/img-4.jpg') }}" alt=""
-                                                            class="img-fluid rounded">
+                                                        <img src="{{ URL::asset('assets/images/small/img-4.jpg') }}"
+                                                            alt="" class="img-fluid rounded">
                                                     </div>
                                                     <div class="col-lg-1 col-sm-2 col-6">
-                                                        <img src="{{ URL::asset('build/images/small/img-5.jpg') }}" alt=""
-                                                            class="img-fluid rounded">
+                                                        <img src="{{ URL::asset('assets/images/small/img-5.jpg') }}"
+                                                            alt="" class="img-fluid rounded">
                                                     </div>
                                                 </div>
                                                 <a href="javascript: void(0);" class="badge text-muted bg-light"><i
                                                         class="mdi mdi-reply"></i> Reply</a>
                                                 <div class="d-flex mt-4">
                                                     <div class="flex-shrink-0">
-                                                        <img src="{{ URL::asset('build/images/users/avatar-6.jpg') }}" alt=""
-                                                            class="avatar-xs rounded-circle" />
+                                                        <img src="{{ URL::asset('assets/images/users/avatar-6.jpg') }}"
+                                                            alt="" class="avatar-xs rounded-circle" />
                                                     </div>
                                                     <div class="flex-grow-1 ms-3">
-                                                        <h5 class="fs-13">Donald Palmer <small
-                                                                class="text-muted ms-2">8 sec ago</small></h5>
+                                                        <h5 class="fs-13">Donald Palmer <small class="text-muted ms-2">8
+                                                                sec ago</small></h5>
                                                         <p class="text-muted">Other shipping methods are available at
                                                             checkout if you want your purchase delivered faster.</p>
-                                                        <a href="javascript: void(0);" class="badge text-muted bg-light"><i
+                                                        <a href="javascript: void(0);"
+                                                            class="badge text-muted bg-light"><i
                                                                 class="mdi mdi-reply"></i> Reply</a>
                                                     </div>
                                                 </div>
@@ -353,7 +359,8 @@
                                     <form class="mt-4">
                                         <div class="row g-3">
                                             <div class="col-12">
-                                                <label for="exampleFormControlTextarea1" class="form-label text-body">Leave
+                                                <label for="exampleFormControlTextarea1"
+                                                    class="form-label text-body">Leave
                                                     a Comments</label>
                                                 <textarea class="form-control bg-light border-light" id="exampleFormControlTextarea1" rows="3"
                                                     placeholder="Enter your comment..."></textarea>
@@ -405,16 +412,18 @@
                                         <div class="vstack gap-3">
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                                    <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt=""
-                                                        class="img-fluid rounded-circle">
+                                                    <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}"
+                                                        alt="" class="img-fluid rounded-circle">
                                                 </div>
                                                 <div class="flex-grow-1">
-                                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Nancy
+                                                    <h5 class="fs-13 mb-0"><a href="#"
+                                                            class="text-body d-block">Nancy
                                                             Martino</a></h5>
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <div class="d-flex align-items-center gap-1">
-                                                        <button type="button" class="btn btn-light btn-sm">Message</button>
+                                                        <button type="button"
+                                                            class="btn btn-light btn-sm">Message</button>
                                                         <div class="dropdown">
                                                             <button class="btn btn-icon btn-sm fs-16 text-muted dropdown"
                                                                 type="button" data-bs-toggle="dropdown"
@@ -444,12 +453,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
-                                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Henry
+                                                    <h5 class="fs-13 mb-0"><a href="#"
+                                                            class="text-body d-block">Henry
                                                             Baird</a></h5>
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <div class="d-flex align-items-center gap-1">
-                                                        <button type="button" class="btn btn-light btn-sm">Message</button>
+                                                        <button type="button"
+                                                            class="btn btn-light btn-sm">Message</button>
                                                         <div class="dropdown">
                                                             <button class="btn btn-icon btn-sm fs-16 text-muted dropdown"
                                                                 type="button" data-bs-toggle="dropdown"
@@ -474,16 +485,18 @@
                                             <!-- end member item -->
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                                    <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt=""
-                                                        class="img-fluid rounded-circle">
+                                                    <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}"
+                                                        alt="" class="img-fluid rounded-circle">
                                                 </div>
                                                 <div class="flex-grow-1">
-                                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Frank
+                                                    <h5 class="fs-13 mb-0"><a href="#"
+                                                            class="text-body d-block">Frank
                                                             Hook</a></h5>
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <div class="d-flex align-items-center gap-1">
-                                                        <button type="button" class="btn btn-light btn-sm">Message</button>
+                                                        <button type="button"
+                                                            class="btn btn-light btn-sm">Message</button>
                                                         <div class="dropdown">
                                                             <button class="btn btn-icon btn-sm fs-16 text-muted dropdown"
                                                                 type="button" data-bs-toggle="dropdown"
@@ -508,8 +521,8 @@
                                             <!-- end member item -->
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                                    <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt=""
-                                                        class="img-fluid rounded-circle">
+                                                    <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}"
+                                                        alt="" class="img-fluid rounded-circle">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h5 class="fs-13 mb-0"><a href="#"
@@ -517,7 +530,8 @@
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <div class="d-flex align-items-center gap-1">
-                                                        <button type="button" class="btn btn-light btn-sm">Message</button>
+                                                        <button type="button"
+                                                            class="btn btn-light btn-sm">Message</button>
                                                         <div class="dropdown">
                                                             <button class="btn btn-icon btn-sm fs-16 text-muted dropdown"
                                                                 type="button" data-bs-toggle="dropdown"
@@ -542,7 +556,8 @@
                                             <!-- end member item -->
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                                    <div class="avatar-title bg-success-subtle text-success rounded-circle">
+                                                    <div
+                                                        class="avatar-title bg-success-subtle text-success rounded-circle">
                                                         AC
                                                     </div>
                                                 </div>
@@ -552,7 +567,8 @@
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <div class="d-flex align-items-center gap-1">
-                                                        <button type="button" class="btn btn-light btn-sm">Message</button>
+                                                        <button type="button"
+                                                            class="btn btn-light btn-sm">Message</button>
                                                         <div class="dropdown">
                                                             <button class="btn btn-icon btn-sm fs-16 text-muted dropdown"
                                                                 type="button" data-bs-toggle="dropdown"
@@ -577,8 +593,8 @@
                                             <!-- end member item -->
                                             <div class="d-flex align-items-center">
                                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                                    <img src="{{ URL::asset('build/images/users/avatar-7.jpg') }}" alt=""
-                                                        class="img-fluid rounded-circle">
+                                                    <img src="{{ URL::asset('assets/images/users/avatar-7.jpg') }}"
+                                                        alt="" class="img-fluid rounded-circle">
                                                 </div>
                                                 <div class="flex-grow-1">
                                                     <h5 class="fs-13 mb-0"><a href="#"
@@ -586,7 +602,8 @@
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <div class="d-flex align-items-center gap-1">
-                                                        <button type="button" class="btn btn-light btn-sm">Message</button>
+                                                        <button type="button"
+                                                            class="btn btn-light btn-sm">Message</button>
                                                         <div class="dropdown">
                                                             <button class="btn btn-icon btn-sm fs-16 text-muted dropdown"
                                                                 type="button" data-bs-toggle="dropdown"
@@ -1085,7 +1102,7 @@
                             <div class="acitivity-timeline py-3">
                                 <div class="acitivity-item d-flex">
                                     <div class="flex-shrink-0">
-                                        <img src="{{ URL::asset('build/images/users/avatar-1.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-1.jpg') }}" alt=""
                                             class="avatar-xs rounded-circle acitivity-avatar" />
                                     </div>
                                     <div class="flex-grow-1 ms-3">
@@ -1106,19 +1123,19 @@
                                                 class="badge bg-secondary-subtle text-secondary align-middle">In
                                                 Progress</span></h6>
                                         <p class="text-muted mb-2"><i class="ri-file-text-line align-middle ms-2"></i>
-                                            Create new project Building product</p>
+                                            Create new project assetsing product</p>
                                         <div class="avatar-group mb-2">
                                             <a href="javascript: void(0);" class="avatar-group-item"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Christi">
-                                                <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt=""
-                                                    class="rounded-circle avatar-xs" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}"
+                                                    alt="" class="rounded-circle avatar-xs" />
                                             </a>
                                             <a href="javascript: void(0);" class="avatar-group-item"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
                                                 data-bs-original-title="Frank Hook">
-                                                <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt=""
-                                                    class="rounded-circle avatar-xs" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}"
+                                                    alt="" class="rounded-circle avatar-xs" />
                                             </a>
                                             <a href="javascript: void(0);" class="avatar-group-item"
                                                 data-bs-toggle="tooltip" data-bs-placement="top" title=""
@@ -1144,7 +1161,7 @@
                                 </div>
                                 <div class="acitivity-item py-3 d-flex">
                                     <div class="flex-shrink-0">
-                                        <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}" alt=""
                                             class="avatar-xs rounded-circle acitivity-avatar" />
                                     </div>
                                     <div class="flex-grow-1 ms-3">
@@ -1156,18 +1173,18 @@
                                             <div class="col-xxl-4">
                                                 <div class="row border border-dashed gx-2 p-2 mb-2">
                                                     <div class="col-4">
-                                                        <img src="{{ URL::asset('build/images/small/img-2.jpg') }}" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ URL::asset('assets/images/small/img-2.jpg') }}"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <!--end col-->
                                                     <div class="col-4">
-                                                        <img src="{{ URL::asset('build/images/small/img-3.jpg') }}" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ URL::asset('assets/images/small/img-3.jpg') }}"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <!--end col-->
                                                     <div class="col-4">
-                                                        <img src="{{ URL::asset('build/images/small/img-4.jpg') }}" alt=""
-                                                            class="img-fluid rounded" />
+                                                        <img src="{{ URL::asset('assets/images/small/img-4.jpg') }}"
+                                                            alt="" class="img-fluid rounded" />
                                                     </div>
                                                     <!--end col-->
                                                 </div>
@@ -1179,7 +1196,7 @@
                                 </div>
                                 <div class="acitivity-item py-3 d-flex">
                                     <div class="flex-shrink-0">
-                                        <img src="{{ URL::asset('build/images/users/avatar-6.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-6.jpg') }}" alt=""
                                             class="avatar-xs rounded-circle acitivity-avatar" />
                                     </div>
                                     <div class="flex-grow-1 ms-3">
@@ -1207,7 +1224,7 @@
                                 </div>
                                 <div class="acitivity-item py-3 d-flex">
                                     <div class="flex-shrink-0">
-                                        <img src="{{ URL::asset('build/images/users/avatar-7.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-7.jpg') }}" alt=""
                                             class="avatar-xs rounded-circle acitivity-avatar" />
                                     </div>
                                     <div class="flex-grow-1 ms-3">
@@ -1229,13 +1246,13 @@
                                         <h6 class="mb-1">Monthly sales report</h6>
                                         <p class="text-muted mb-2"><span class="text-danger">2 days left</span>
                                             notification to submit the monthly sales report. <a href="javascript:void(0);"
-                                                class="link-warning text-decoration-underline">Reports Builder</a></p>
+                                                class="link-warning text-decoration-underline">Reports assetser</a></p>
                                         <small class="mb-0 text-muted">15 Oct</small>
                                     </div>
                                 </div>
                                 <div class="acitivity-item d-flex">
                                     <div class="flex-shrink-0">
-                                        <img src="{{ URL::asset('build/images/users/avatar-8.jpg') }}" alt=""
+                                        <img src="{{ URL::asset('assets/images/users/avatar-8.jpg') }}" alt=""
                                             class="avatar-xs rounded-circle acitivity-avatar" />
                                     </div>
                                     <div class="flex-grow-1 ms-3">
@@ -1309,8 +1326,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1442,8 +1459,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1508,8 +1525,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ URL::asset('build/images/users/avatar-8.jpg') }}" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-8.jpg') }}"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1641,8 +1658,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1774,8 +1791,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ URL::asset('build/images/users/avatar-7.jpg') }}" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-7.jpg') }}"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1840,8 +1857,8 @@
                                     <div class="col-lg-4 col">
                                         <div class="team-profile-img">
                                             <div class="avatar-lg img-thumbnail rounded-circle">
-                                                <img src="{{ URL::asset('build/images/users/avatar-5.jpg') }}" alt=""
-                                                    class="img-fluid d-block rounded-circle" />
+                                                <img src="{{ URL::asset('assets/images/users/avatar-5.jpg') }}"
+                                                    alt="" class="img-fluid d-block rounded-circle" />
                                             </div>
                                             <div class="team-content">
                                                 <a href="#" class="d-block">
@@ -1993,7 +2010,8 @@
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                 data-bs-trigger="hover" data-bs-placement="top" title="Brent Gonzalez">
                                 <div class="avatar-xs">
-                                    <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt="" class="rounded-circle img-fluid">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt=""
+                                        class="rounded-circle img-fluid">
                                 </div>
                             </a>
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
@@ -2007,7 +2025,8 @@
                             <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip"
                                 data-bs-trigger="hover" data-bs-placement="top" title="Ellen Smith">
                                 <div class="avatar-xs">
-                                    <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt="" class="rounded-circle img-fluid">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}" alt=""
+                                        class="rounded-circle img-fluid">
                                 </div>
                             </a>
                         </div>
@@ -2016,10 +2035,12 @@
                         <div class="vstack gap-3">
                             <div class="d-flex align-items-center">
                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                    <img src="{{ URL::asset('build/images/users/avatar-2.jpg') }}" alt="" class="img-fluid rounded-circle">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-2.jpg') }}" alt=""
+                                        class="img-fluid rounded-circle">
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Nancy Martino</a>
+                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Nancy
+                                            Martino</a>
                                     </h5>
                                 </div>
                                 <div class="flex-shrink-0">
@@ -2044,10 +2065,12 @@
                             <!-- end member item -->
                             <div class="d-flex align-items-center">
                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                    <img src="{{ URL::asset('build/images/users/avatar-3.jpg') }}" alt="" class="img-fluid rounded-circle">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-3.jpg') }}" alt=""
+                                        class="img-fluid rounded-circle">
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Frank Hook</a></h5>
+                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Frank Hook</a>
+                                    </h5>
                                 </div>
                                 <div class="flex-shrink-0">
                                     <button type="button" class="btn btn-light btn-sm">Add</button>
@@ -2056,10 +2079,12 @@
                             <!-- end member item -->
                             <div class="d-flex align-items-center">
                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                    <img src="{{ URL::asset('build/images/users/avatar-4.jpg') }}" alt="" class="img-fluid rounded-circle">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-4.jpg') }}" alt=""
+                                        class="img-fluid rounded-circle">
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Jennifer Carter</a>
+                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Jennifer
+                                            Carter</a>
                                     </h5>
                                 </div>
                                 <div class="flex-shrink-0">
@@ -2074,7 +2099,8 @@
                                     </div>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Alexis Clarke</a>
+                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Alexis
+                                            Clarke</a>
                                     </h5>
                                 </div>
                                 <div class="flex-shrink-0">
@@ -2084,10 +2110,12 @@
                             <!-- end member item -->
                             <div class="d-flex align-items-center">
                                 <div class="avatar-xs flex-shrink-0 me-3">
-                                    <img src="{{ URL::asset('build/images/users/avatar-7.jpg') }}" alt="" class="img-fluid rounded-circle">
+                                    <img src="{{ URL::asset('assets/images/users/avatar-7.jpg') }}" alt=""
+                                        class="img-fluid rounded-circle">
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Joseph Parker</a>
+                                    <h5 class="fs-13 mb-0"><a href="#" class="text-body d-block">Joseph
+                                            Parker</a>
                                     </h5>
                                 </div>
                                 <div class="flex-shrink-0">
@@ -2111,6 +2139,6 @@
     <!-- end modal -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/js/pages/project-overview.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/project-overview.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

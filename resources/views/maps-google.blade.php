@@ -1,9 +1,15 @@
 @extends('layouts.master')
-@section('title') @lang('translation.google') @endsection
+@section('title')
+    @lang('translation.google')
+@endsection
 @section('content')
     @component('components.breadcrumb')
-        @slot('li_1') Maps @endslot
-        @slot('title') Google Maps @endslot
+        @slot('li_1')
+            Maps
+        @endslot
+        @slot('title')
+            Google Maps
+        @endslot
     @endcomponent
 
     <div class="row">
@@ -65,10 +71,10 @@
     <!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/prismjs/prism.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/prismjs/prism.js') }}"></script>
     <script src="https://maps.google.com/maps/api/js?key=AIzaSyCtSAR45TFgZjOs4nBFFZnII-6mMHLfSYI"></script>
 
-    <script src="{{ URL::asset('build/libs/gmaps/gmaps.min.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/gmaps.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/gmaps/gmaps.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/gmaps.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

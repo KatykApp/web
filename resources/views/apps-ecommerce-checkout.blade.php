@@ -488,7 +488,7 @@
                                 <tr>
                                     <td>
                                         <div class="avatar-md bg-light rounded p-1">
-                                            <img src="{{ URL::asset('build/images/products/img-8.png') }}" alt=""
+                                            <img src="{{ URL::asset('assets/images/products/img-8.png') }}" alt=""
                                                 class="img-fluid d-block">
                                         </div>
                                     </td>
@@ -503,7 +503,7 @@
                                 <tr>
                                     <td>
                                         <div class="avatar-md bg-light rounded p-1">
-                                            <img src="{{ URL::asset('build/images/products/img-7.png') }}" alt=""
+                                            <img src="{{ URL::asset('assets/images/products/img-7.png') }}" alt=""
                                                 class="img-fluid d-block">
                                         </div>
                                     </td>
@@ -517,7 +517,7 @@
                                 <tr>
                                     <td>
                                         <div class="avatar-md bg-light rounded p-1">
-                                            <img src="{{ URL::asset('build/images/products/img-3.png') }}" alt=""
+                                            <img src="{{ URL::asset('assets/images/products/img-3.png') }}" alt=""
                                                 class="img-fluid d-block">
                                         </div>
                                     </td>
@@ -638,6 +638,6 @@
     </div><!-- /.modal -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/js/pages/ecommerce-product-checkout.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/ecommerce-product-checkout.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

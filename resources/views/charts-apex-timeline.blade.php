@@ -104,9 +104,9 @@
     <!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/apexcharts/apexcharts.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/moment/moment.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/apexcharts-timeline.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/moment/moment.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/apexcharts-timeline.init.js') }}"></script>
 
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

@@ -408,7 +408,7 @@
                                     class="fw-medium link-primary">#VZ001</a></td>
                             <td>
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/btc.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/btc.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Bitcoin
                                         (BTC)</a>
@@ -433,7 +433,7 @@
                                     class="fw-medium link-primary">#VZ002</a></td>
                             <td>
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/eth.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/eth.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Ethereum
                                         (ETH)</a>
@@ -458,7 +458,7 @@
                                     class="fw-medium link-primary">#VZ003</a></td>
                             <td>
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/ltc.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/ltc.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Litecoin
                                         (LTC)</a>
@@ -483,7 +483,7 @@
                                     class="fw-medium link-primary">#VZ004</a></td>
                             <td>
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/xmr.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/xmr.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Monero (XMR)</a>
                                 </div>
@@ -507,7 +507,7 @@
                                     class="fw-medium link-primary">#VZ005</a></td>
                             <td>
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/sol.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/sol.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Solana (SOL)</a>
                                 </div>
@@ -531,7 +531,7 @@
                                     class="fw-medium link-primary">#VZ006</a></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/ant.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/ant.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Aragon (ANT)</a>
                                 </div>
@@ -555,7 +555,7 @@
                                     class="fw-medium link-primary">#VZ007</a></td>
                             <td>
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/fil.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/fil.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Filecoin
                                         (FIL)</a>
@@ -580,7 +580,7 @@
                                     class="fw-medium link-primary">#VZ008</a></td>
                             <td>
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/aave.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/aave.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Aave (AAVE)</a>
                                 </div>
@@ -604,7 +604,7 @@
                                     class="fw-medium link-primary">#VZ009</a></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/ada.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/ada.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Cardano
                                         (ADA)</a>
@@ -629,7 +629,7 @@
                                     class="fw-medium link-primary">#VZ010</a></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center fw-medium">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/dot.svg') }}" alt=""
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/dot.svg') }}" alt=""
                                         class="avatar-xxs me-2">
                                     <a href="javascript:void(0);" class="currency_name">Polkadot
                                         (DOT)</a>
@@ -681,10 +681,10 @@
     <!--end card-->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/list.js/list.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/list.pagination.js/list.pagination.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/list.js/list.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/list.pagination.js/list.pagination.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
 
-    <script src="{{ URL::asset('build/js/pages/crypto-buy-sell.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/crypto-buy-sell.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

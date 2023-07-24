@@ -20,7 +20,8 @@
 
                 <div class="card-body">
                     <div class="live-preview">
-                        <div id="basic_heatmap" data-colors='["--vz-success", "--vz-secondary-bg"]' class="apex-charts" dir="ltr"></div>
+                        <div id="basic_heatmap" data-colors='["--vz-success", "--vz-secondary-bg"]' class="apex-charts"
+                            dir="ltr"></div>
                     </div>
                 </div><!-- end card-body -->
             </div><!-- end card -->
@@ -74,7 +75,7 @@
     <!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/apexcharts/apexcharts.min.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/apexcharts-heatmap.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/apexcharts-heatmap.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

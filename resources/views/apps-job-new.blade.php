@@ -149,5 +149,5 @@
 @section('script')
 
 <!-- App js -->
-<script src="{{URL::asset('build/js/app.js')}}"></script>
+<script src="{{URL::asset('assets/js/app.js')}}"></script>
 @endsection

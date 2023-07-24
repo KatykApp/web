@@ -14,13 +14,13 @@
                     <div class="card-body">
                         <div class="row g-1 mb-3">
                             <div class="col-lg-6">
-                                <img src="{{URL::asset('build/images/nft/img-05.jpg')}}" alt="" class="img-fluid rounded">
+                                <img src="{{URL::asset('assets/images/nft/img-05.jpg')}}" alt="" class="img-fluid rounded">
                                 <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="img-fluid rounded mt-1">
                             </div>
                             <!--end col-->
                             <div class="col-lg-6">
                                 <img src="https://img.themesbrand.com/velzon/images/img-4.gif" alt="" class="img-fluid rounded mb-1">
-                                <img src="{{URL::asset('build/images/nft/img-04.jpg')}}" alt="" class="img-fluid rounded">
+                                <img src="{{URL::asset('assets/images/nft/img-04.jpg')}}" alt="" class="img-fluid rounded">
                             </div>
                             <!--end col-->
                         </div>
@@ -36,13 +36,13 @@
                     <div class="card-body">
                         <div class="row g-1 mb-3">
                             <div class="col-lg-6">
-                                <img src="{{URL::asset('build/images/nft/img-06.jpg')}}" alt="" class="img-fluid rounded">
+                                <img src="{{URL::asset('assets/images/nft/img-06.jpg')}}" alt="" class="img-fluid rounded">
                                 <img src="https://img.themesbrand.com/velzon/images/img-2.gif" alt="" class="img-fluid rounded mt-1">
                             </div>
                             <!--end col-->
                             <div class="col-lg-6">
                                 <img src="https://img.themesbrand.com/velzon/images/img-5.gif" alt="" class="img-fluid rounded mb-1">
-                                <img src="{{URL::asset('build/images/nft/img-03.jpg')}}" alt="" class="img-fluid rounded">
+                                <img src="{{URL::asset('assets/images/nft/img-03.jpg')}}" alt="" class="img-fluid rounded">
                             </div>
                             <!--end col-->
                         </div>
@@ -58,13 +58,13 @@
                     <div class="card-body">
                         <div class="row g-1 mb-3">
                             <div class="col-lg-6">
-                                <img src="{{URL::asset('build/images/nft/img-02.jpg')}}" alt="" class="img-fluid rounded">
+                                <img src="{{URL::asset('assets/images/nft/img-02.jpg')}}" alt="" class="img-fluid rounded">
                                 <img src="https://img.themesbrand.com/velzon/images/img-3.gif" alt="" class="img-fluid rounded mt-1">
                             </div>
                             <!--end col-->
                             <div class="col-lg-6">
                                 <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="img-fluid rounded mb-1">
-                                <img src="{{URL::asset('build/images/nft/img-01.jpg')}}" alt="" class="img-fluid rounded">
+                                <img src="{{URL::asset('assets/images/nft/img-01.jpg')}}" alt="" class="img-fluid rounded">
                             </div>
                             <!--end col-->
                         </div>
@@ -82,7 +82,7 @@
         <div class="alert alert-danger">
             Up to <b>50% OFF</b>, Hurry up before the stock ends
         </div>
-        <div class="card bg-primary" style="background-image: url('build/images/nft/bg-pattern.png');">
+        <div class="card bg-primary" style="background-image: url('assets/images/nft/bg-pattern.png');">
             <div class="card-body p-4">
                 <span class="badge bg-info fw-medium mb-3 fs-12">Trending Artwork</span>
                 <h3 class="text-white lh-base">Discover, Collect, Sell and Create your own NFT</h3>
@@ -130,7 +130,7 @@
         <div class="card explore-box">
             <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="{{URL::asset('build/images/users/avatar-2.jpg')}}" alt="" class="avatar-xs rounded-circle" />
+                    <img src="{{URL::asset('assets/images/users/avatar-2.jpg')}}" alt="" class="avatar-xs rounded-circle" />
                     <div class="ms-2 flex-grow-1">
                         <h6 class="mb-0 fs-15">Nancy Martino</h6>
                         <p class="mb-0 text-muted">Owners</p>
@@ -140,7 +140,7 @@
                     </div>
                 </div>
                 <div class="explore-place-bid-img overflow-hidden rounded">
-                    <img src="{{URL::asset('build/images/nft/img-05.jpg')}}" alt="" class="img-fluid explore-img">
+                    <img src="{{URL::asset('assets/images/nft/img-05.jpg')}}" alt="" class="img-fluid explore-img">
                     <div class="bg-overlay"></div>
                     <div class="place-bid-btn">
                         <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -158,7 +158,7 @@
         <div class="card explore-box">
             <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="{{URL::asset('build/images/users/avatar-9.jpg')}}" alt="" class="avatar-xs rounded-circle" />
+                    <img src="{{URL::asset('assets/images/users/avatar-9.jpg')}}" alt="" class="avatar-xs rounded-circle" />
                     <div class="ms-2 flex-grow-1">
                         <h6 class="mb-0 fs-15">Henry Baird</h6>
                         <p class="mb-0 text-muted">Creators</p>
@@ -168,7 +168,7 @@
                     </div>
                 </div>
                 <div class="explore-place-bid-img overflow-hidden rounded">
-                    <img src="{{URL::asset('build/images/nft/img-03.jpg')}}" alt="" class="img-fluid explore-img">
+                    <img src="{{URL::asset('assets/images/nft/img-03.jpg')}}" alt="" class="img-fluid explore-img">
                     <div class="bg-overlay"></div>
                     <div class="place-bid-btn">
                         <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -186,7 +186,7 @@
         <div class="card explore-box">
             <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="{{URL::asset('build/images/users/avatar-10.jpg')}}" alt="" class="avatar-xs rounded-circle" />
+                    <img src="{{URL::asset('assets/images/users/avatar-10.jpg')}}" alt="" class="avatar-xs rounded-circle" />
                     <div class="ms-2 flex-grow-1">
                         <h6 class="mb-0 fs-15">Diana Kohler</h6>
                         <p class="mb-0 text-muted">Owners</p>
@@ -214,7 +214,7 @@
         <div class="card explore-box">
             <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="{{URL::asset('build/images/users/avatar-8.jpg')}}" alt="" class="avatar-xs rounded-circle" />
+                    <img src="{{URL::asset('assets/images/users/avatar-8.jpg')}}" alt="" class="avatar-xs rounded-circle" />
                     <div class="ms-2 flex-grow-1">
                         <h6 class="mb-0 fs-15">James Price</h6>
                         <p class="mb-0 text-muted">Owners</p>
@@ -224,7 +224,7 @@
                     </div>
                 </div>
                 <div class="explore-place-bid-img overflow-hidden rounded">
-                    <img src="{{URL::asset('build/images/nft/img-06.jpg')}}" alt="" class="img-fluid explore-img">
+                    <img src="{{URL::asset('assets/images/nft/img-06.jpg')}}" alt="" class="img-fluid explore-img">
                     <div class="bg-overlay"></div>
                     <div class="place-bid-btn">
                         <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -242,7 +242,7 @@
         <div class="card explore-box">
             <div class="card-body">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="{{URL::asset('build/images/users/avatar-2.jpg')}}" alt="" class="avatar-xs rounded-circle" />
+                    <img src="{{URL::asset('assets/images/users/avatar-2.jpg')}}" alt="" class="avatar-xs rounded-circle" />
                     <div class="ms-2 flex-grow-1">
                         <h6 class="mb-0 fs-15">Rickey Teran</h6>
                         <p class="mb-0 text-muted">Creators</p>
@@ -291,7 +291,7 @@
                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
             </div>
             <div class="explore-place-bid-img">
-                <img src="{{URL::asset('build/images/nft/img-02.jpg')}}" alt="" class="card-img-top explore-img" />
+                <img src="{{URL::asset('assets/images/nft/img-02.jpg')}}" alt="" class="card-img-top explore-img" />
                 <div class="bg-overlay"></div>
                 <div class="place-bid-btn">
                     <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -345,7 +345,7 @@
                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
             </div>
             <div class="explore-place-bid-img">
-                <img src="{{URL::asset('build/images/nft/img-04.jpg')}}" alt="" class="card-img-top explore-img" />
+                <img src="{{URL::asset('assets/images/nft/img-04.jpg')}}" alt="" class="card-img-top explore-img" />
                 <div class="bg-overlay"></div>
                 <div class="place-bid-btn">
                     <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -399,7 +399,7 @@
                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
             </div>
             <div class="explore-place-bid-img">
-                <img src="{{URL::asset('build/images/nft/img-01.jpg')}}" alt="" class="card-img-top explore-img" />
+                <img src="{{URL::asset('assets/images/nft/img-01.jpg')}}" alt="" class="card-img-top explore-img" />
                 <div class="bg-overlay"></div>
                 <div class="place-bid-btn">
                     <a href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i> Place Bid</a>
@@ -438,9 +438,9 @@
 <div class="row row-cols-xl-5 row-cols-lg-3 row-cols-md-2 row-cols-1">
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-03.jpg')}}" alt="" class="card-img-top object-fit-cover" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-03.jpg')}}" alt="" class="card-img-top object-fit-cover" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/users/avatar-1.jpg')}}" alt="" class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
+                <img src="{{URL::asset('assets/images/users/avatar-1.jpg')}}" alt="" class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
                 <h5 class="mt-3 mb-1"><a href="pages-profile">Tonya Noble</a></h5>
                 <p class="text-muted">5048 Products</p>
                 <div>
@@ -454,7 +454,7 @@
         <div class="card">
             <img src="https://img.themesbrand.com/velzon/images/img-5.gif" alt="" class="card-img-top object-fit-cover" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/nft/img-04.jpg')}}" alt="" class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
+                <img src="{{URL::asset('assets/images/nft/img-04.jpg')}}" alt="" class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
                 <h5 class="mt-3 mb-1"><a href="pages-profile">Kevin Dawson</a></h5>
                 <p class="text-muted">649 Products</p>
                 <div>
@@ -466,9 +466,9 @@
     <!--end col-->
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-01.jpg')}}" alt="" class="card-img-top object-fit-cover" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-01.jpg')}}" alt="" class="card-img-top object-fit-cover" height="120">
             <div class="card-body text-center">
-                <img src="{{URL::asset('build/images/nft/img-06.jpg')}}" alt="" class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
+                <img src="{{URL::asset('assets/images/nft/img-06.jpg')}}" alt="" class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
                 <h5 class="mt-3 mb-1"><a href="pages-profile">Herbert Stokes</a></h5>
                 <p class="text-muted">918 Products</p>
                 <div>
@@ -480,7 +480,7 @@
     <!--end col-->
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-05.jpg')}}" alt="" class="card-img-top object-fit-cover" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-05.jpg')}}" alt="" class="card-img-top object-fit-cover" height="120">
             <div class="card-body text-center">
                 <img src="https://img.themesbrand.com/velzon/images/img-2.gif" alt="" class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
                 <h5 class="mt-3 mb-1"><a href="pages-profile">Thomas Taylor</a></h5>
@@ -494,7 +494,7 @@
     <!--end col-->
     <div class="col">
         <div class="card">
-            <img src="{{URL::asset('build/images/nft/img-02.jpg')}}" alt="" class="card-img-top object-fit-cover" height="120">
+            <img src="{{URL::asset('assets/images/nft/img-02.jpg')}}" alt="" class="card-img-top object-fit-cover" height="120">
             <div class="card-body text-center">
                 <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt="" class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
                 <h5 class="mt-3 mb-1"><a href="pages-profile">James Price</a></h5>
@@ -511,5 +511,5 @@
 
 @endsection
 @section('script')
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

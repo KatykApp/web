@@ -3,7 +3,7 @@
 @lang('translation.customers')
 @endsection
 @section('css')
-<link href="{{ URL::asset('build/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ URL::asset('assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
 
 @endsection
 @section('content')
@@ -247,12 +247,12 @@ Customers
 <!--end row-->
 @endsection
 @section('script')
-<script src="{{ URL::asset('build/libs/list.js/list.min.js') }}"></script>
-<script src="{{ URL::asset('build/libs/list.pagination.js/list.pagination.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/list.js/list.min.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/list.pagination.js/list.pagination.min.js') }}"></script>
 
 <!--ecommerce-customer init js -->
-<script src="{{ URL::asset('build/js/pages/ecommerce-customer-list.init.js') }}"></script>
-<script src="{{ URL::asset('build/libs/sweetalert2/sweetalert2.min.js') }}"></script>
+<script src="{{ URL::asset('assets/js/pages/ecommerce-customer-list.init.js') }}"></script>
+<script src="{{ URL::asset('assets/libs/sweetalert2/sweetalert2.min.js') }}"></script>
 
-<script src="{{ URL::asset('build/js/app.js') }}"></script>
+<script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

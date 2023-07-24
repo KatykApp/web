@@ -1,9 +1,15 @@
 @extends('layouts.master')
-@section('title') @lang('translation.remix') @endsection
+@section('title')
+    @lang('translation.remix')
+@endsection
 @section('content')
     @component('components.breadcrumb')
-        @slot('li_1') Forms @endslot
-        @slot('title') Remix Icons @endslot
+        @slot('li_1')
+            Forms
+        @endslot
+        @slot('title')
+            Remix Icons
+        @endslot
     @endcomponent
     <div class="row">
 
@@ -14,6 +20,6 @@
     </div><!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/js/pages/remix-icons-listing.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/remix-icons-listing.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

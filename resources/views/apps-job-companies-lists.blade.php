@@ -71,7 +71,7 @@
             <div class="card-body">
                 <div class="avatar-lg mx-auto mb-3">
                     <div class="avatar-title bg-light rounded">
-                        <img src="{{URL::asset('build/images/companies/img-6.png')}}" alt="" class="avatar-sm company-logo">
+                        <img src="{{URL::asset('assets/images/companies/img-6.png')}}" alt="" class="avatar-sm company-logo">
                     </div>
                 </div>
 
@@ -188,8 +188,8 @@
 @endsection
 @section('script')
 <!-- job-candidate-grid js -->
-<script src="{{URL::asset('build/js/pages/job-companies-lists.init.js')}}"></script>
+<script src="{{URL::asset('assets/js/pages/job-companies-lists.init.js')}}"></script>
 
 <!-- App js -->
-<script src="{{URL::asset('build/js/app.js')}}"></script>
+<script src="{{URL::asset('assets/js/app.js')}}"></script>
 @endsection

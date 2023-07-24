@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title') @lang('translation.transactions') @endsection
 @section('css')
-    <link href="{{ URL::asset('build/libs/swiper/swiper-bundle.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('assets/libs/swiper/swiper-bundle.min.css')}}" rel="stylesheet" type="text/css" />
 
 @endsection
 @section('content')
@@ -208,7 +208,7 @@
                             <td class="date">24 Dec, 2021 <small class="text-muted">08:58AM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/btc.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/btc.svg') }}" alt="" class="avatar-xxs me-2">
                                     BTC
                                 </div>
                             </td>
@@ -237,7 +237,7 @@
                             <td class="date">16 Dec, 2021 <small class="text-muted">10:32PM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/eth.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/eth.svg') }}" alt="" class="avatar-xxs me-2">
                                     ETH
                                 </div>
                             </td>
@@ -266,7 +266,7 @@
                             <td class="date">04 Jan, 2022 <small class="text-muted">02:24AM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/eur.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/eur.svg') }}" alt="" class="avatar-xxs me-2">
                                     EUR
                                 </div>
                             </td>
@@ -295,7 +295,7 @@
                             <td class="date">28 Oct, 2021 <small class="text-muted">11:42AM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/gbp.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/gbp.svg') }}" alt="" class="avatar-xxs me-2">
                                     GBP
                                 </div>
                             </td>
@@ -324,7 +324,7 @@
                             <td class="date">14 Nov, 2021 <small class="text-muted">12:38PM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/jpy.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/jpy.svg') }}" alt="" class="avatar-xxs me-2">
                                     JPY
                                 </div>
                             </td>
@@ -353,7 +353,7 @@
                             <td class="date">02 Jan, 2022 <small class="text-muted">08:58AM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/xrp.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/xrp.svg') }}" alt="" class="avatar-xxs me-2">
                                     XRP
                                 </div>
                             </td>
@@ -382,7 +382,7 @@
                             <td class="date">17 Oct, 2021 <small class="text-muted">07:08PM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/ltc.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/ltc.svg') }}" alt="" class="avatar-xxs me-2">
                                     LTC
                                 </div>
                             </td>
@@ -411,7 +411,7 @@
                             <td class="date">27 Dec, 2021 <small class="text-muted">01:24PM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/xmr.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/xmr.svg') }}" alt="" class="avatar-xxs me-2">
                                     XMR
                                 </div>
                             </td>
@@ -440,7 +440,7 @@
                             <td class="date">23 Dec, 2021 <small class="text-muted">01:47AM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/xpm.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/xpm.svg') }}" alt="" class="avatar-xxs me-2">
                                     XPM
                                 </div>
                             </td>
@@ -469,7 +469,7 @@
                             <td class="date">15 Dec, 2021 <small class="text-muted">08:58AM</small></td>
                             <td class="currency_name">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ URL::asset('build/images/svg/crypto-icons/ppt.svg') }}" alt="" class="avatar-xxs me-2">
+                                    <img src="{{ URL::asset('assets/images/svg/crypto-icons/ppt.svg') }}" alt="" class="avatar-xxs me-2">
                                     PPT
                                 </div>
                             </td>
@@ -514,10 +514,10 @@
     </div><!--end card-->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/list.js/list.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/list.pagination.js/list.pagination.min.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/list.js/list.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/list.pagination.js/list.pagination.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/swiper/swiper-bundle.min.js') }}"></script>
 
-    <script src="{{ URL::asset('build/js/pages/crypto-transactions.init.js') }}"></script>
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/crypto-transactions.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection

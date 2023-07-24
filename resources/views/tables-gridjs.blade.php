@@ -1,13 +1,18 @@
 @extends('layouts.master')
-@section('title') @lang('translation.grid-js') @endsection
+@section('title')
+    @lang('translation.grid-js')
+@endsection
 @section('css')
-    <link rel="stylesheet" href="{{ URL::asset('build/libs/gridjs/theme/mermaid.min.css') }}">
-
+    <link rel="stylesheet" href="{{ URL::asset('assets/libs/gridjs/theme/mermaid.min.css') }}">
 @endsection
 @section('content')
     @component('components.breadcrumb')
-        @slot('li_1') Tables @endslot
-        @slot('title') Grid Js @endslot
+        @slot('li_1')
+            Tables
+        @endslot
+        @slot('title')
+            Grid Js
+        @endslot
     @endcomponent
     <div class="row">
         <div class="col-lg-12">
@@ -138,9 +143,9 @@
     <!-- end row -->
 @endsection
 @section('script')
-    <script src="{{ URL::asset('build/libs/prismjs/prism.js') }}"></script>
-    <script src="{{ URL::asset('build/libs/gridjs/gridjs.umd.js') }}"></script>
-    <script src="{{ URL::asset('build/js/pages/gridjs.init.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/prismjs/prism.js') }}"></script>
+    <script src="{{ URL::asset('assets/libs/gridjs/gridjs.umd.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/pages/gridjs.init.js') }}"></script>
 
-    <script src="{{ URL::asset('build/js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/app.js') }}"></script>
 @endsection
